@@ -4,13 +4,15 @@ import { FaSortAmountDown } from 'react-icons/fa';
 import PrvyRiadokTabulky from './PrvyRiadokTabulky';
 import FormatNumber from './components/FormatNumber'
 import './css/TabulkaSvet.css'
+import './css/covidMainTable.scss'
+import LoadingAnimation from './components/LoadingAnimation';
 
 
 function SvetTabulka(props) {
     const [ikonka, setIkonka] = useState('cases')
     const [kontinent, setKontinent] = useState("Svet")
     const [scrollPerformance, setScrollPerformance] = useState(false)
-    const [LastDayData, setLastDayData] = useState()
+    // const [LastDayData, setLastDayData] = useState()
     const [style4Buttons, setStyle4Buttons] = useState({
         Svet: { background: '#e5e5e5', boxShadow: 'inset 0px 0px 5px #c1c1c1' },
         Europe: null,
@@ -44,8 +46,9 @@ function SvetTabulka(props) {
     const [state, dispatch] = useReducer(reducer, 1);
 
     useEffect(() => {
-        const allowed = ["country", "active", "todayCases", "cases", "deaths", "recovered"]
+        const allowed = ["country", "active", "todayCases", "cases", "deaths", "recovered", "tests"]
         let pom = []
+        // console.log(props.countriesData)
         props.countriesData.map((udaj, id) => {
             Object.keys(udaj)
                 .filter(key => allowed.includes(key))
@@ -57,7 +60,7 @@ function SvetTabulka(props) {
                 }, {})
             return null
         })
-        setLastDayData(pom)
+        // setLastDayData(pom)
     }, [props.countriesData])
 
     function reducer(state, action) {
@@ -155,12 +158,15 @@ function SvetTabulka(props) {
             return ({ background: 'rgb(190, 245, 204)' })
     }
 
-    function LastDataFunction(propCountry) {
-        if (LastDayData)
-            return LastDayData.filter(function (e) {
-                return e.country === propCountry
-            })
-    }
+    // function LastDataFunction(propCountry) {
+    // console.log(props.mainData[0].tests)
+    // console.log(LastDayData)
+    // if (LastDayData)
+    // LastDayData.filter(function (e) {
+    //     return e.country === propCountry
+    // })
+    // console.log(LastDayData)
+    // }
     return (
         ikonka && kontinent && props ?
             <>
@@ -197,8 +203,7 @@ function SvetTabulka(props) {
                         <thead>
                             <tr>
                                 <th onClick={() => (props.sortBy("tests") || zmenIkonku("tests"))} >
-                                    Krajina<br></br>
-                                    <div className="firstCase" style={{ fontWeight: 'normal' }}>Počet testov</div>
+                                    Krajina
                                     {ikonka === "tests"
                                         ? <FaSortAmountDown className="sortIcon" />
                                         : null
@@ -207,6 +212,8 @@ function SvetTabulka(props) {
                                         ? <FaSortAmountDown style={myStyle2} className="sortIcon" />
                                         : null
                                     }
+                                    <div className="firstCase" style={{ fontWeight: 'normal' }}>Počet testov</div>
+
                                 </th>
                                 <th onClick={() => (props.sortBy('cases') || zmenIkonku('cases'))} >
                                     Počet nakazených
@@ -278,6 +285,7 @@ function SvetTabulka(props) {
                         </thead>
                         <tbody>
                             <PrvyRiadokTabulky kontinent={kontinent} mainData={props.mainData} />
+                            {/* {console.log(props.mainData[0].tests)} */}
                             {kontinent === "Svet" ?
                                 <>
                                     {props.countriesData.map((item, id) => (
@@ -297,7 +305,8 @@ function SvetTabulka(props) {
                                                         </Link>
                                                         :
                                                         <Link to={{
-                                                            state: LastDataFunction(item.country), pathname: `/Covid/CovidApp/${item.country}`
+                                                            // state: LastDataFunction(item.country), pathname: `/Covid/CovidApp/${item.country}`
+                                                            state: props.mainData[0].tests, pathname: `/Covid/CovidApp/${item.country}`
                                                         }}>
                                                             <span className="KrajinaLink" >{item.country}</span>
                                                             {item.tests > 0 ?
@@ -359,7 +368,8 @@ function SvetTabulka(props) {
                                                             :
 
                                                             <Link to={{
-                                                                state: LastDataFunction(item.country), pathname: `/Covid/CovidApp/${item.country}`
+                                                                // state: LastDataFunction(item.country), pathname: `/Covid/CovidApp/${item.country}`
+                                                                state: props.mainData[0].tests, pathname: `/Covid/CovidApp/${item.country}`
                                                             }}>
                                                                 <span className="KrajinaLink" >{item.country}</span>
 
@@ -400,8 +410,6 @@ function SvetTabulka(props) {
                                         item.continent === kontinent ?
                                             <tr key={id} style={greenBackgroundforTR(item.active)}>
                                                 <td style={{ width: '100px' }}>
-                                                    {/* <Link to={`/Covid/CovidApp/${item.country}`} > */}
-
                                                     {item.country === "Slovakia" ?
                                                         <Link to="/Covid/CovidSK">
                                                             <span className="KrajinaLink" >{item.country}</span>
@@ -415,7 +423,8 @@ function SvetTabulka(props) {
                                                         </Link>
                                                         :
                                                         <Link to={{
-                                                            state: LastDataFunction(item.country), pathname: `/Covid/CovidApp/${item.country}`
+                                                            // state: LastDataFunction(item.country), pathname: `/Covid/CovidApp/${item.country}`
+                                                            state: props.mainData[0].tests, pathname: `/Covid/CovidApp/${item.country}`
                                                         }}>
                                                             <span className="KrajinaLink" >{item.country}</span>
                                                             {item.tests > 0 ?

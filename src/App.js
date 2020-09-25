@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Nav from './Nav';
+import './Covid/css/notLocated.scss'
 
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import CovidApp from './Covid/CovidApp';

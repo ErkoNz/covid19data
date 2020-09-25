@@ -4,50 +4,54 @@ import { Chart } from 'react-chartjs-2';
 import './css/cssPreBarGrafy.css'
 import FormatNumberShorter from './components/FormatNumberShorter'
 import './css/cssPreBarGrafy.css'
+import { FiBarChart } from 'react-icons/fi'
+import { BiBarChart } from 'react-icons/bi'
 
-function BarGrafSvk({ props }) {
+function BarGrafSvk(props) {
+    const propsData = props.props
+
     const allData = {
         dataSetsCases: {
-            labels: props.datumy,
+            labels: propsData.datumy,
             datasets: [{
                 label: 'Počet mŕtvych',
                 backgroundColor: "grey",
-                data: props.dataSetsDeaths.datasets[0].data,
+                data: propsData.dataSetsDeaths.datasets[0].data,
             },
             {
                 label: 'Počet vyliečených',
                 backgroundColor: "#57C757",
-                data: props.dataSetsRecovered.datasets[0].data,
+                data: propsData.dataSetsRecovered.datasets[0].data,
             },
             {
                 label: 'Počet nakazených',
                 backgroundColor: "#FF4D4D",
-                data: props.dataSetsCases.datasets[0].data,
+                data: propsData.dataSetsCases.datasets[0].data,
             }],
         },
 
         dataSetsDailyCasesAndTests: {
-            labels: props.datumy,
+            labels: propsData.datumy,
             datasets: [{
                 label: 'Prírastok nakazených',
                 backgroundColor: "salmon",
-                data: props.dataSetsDailyCases.datasets[0].data,
+                data: propsData.dataSetsDailyCases.datasets[0].data,
             },
             {
                 label: 'Prírastok testov',
                 backgroundColor: "#b4f1f1",
-                data: props.dataSetsDailyTests.datasets[0].data,
+                data: propsData.dataSetsDailyTests.datasets[0].data,
             }],
         },
 
         dataSetsDailyCases: {
-            labels: props.datumy,
-            datasets: props.dataSetsDailyCases.datasets
+            labels: propsData.datumy,
+            datasets: propsData.dataSetsDailyCases.datasets
         },
 
         dataSetsActiveCases: {
-            labels: props.datumy,
-            datasets: props.dataSetsActiveCases.datasets
+            labels: propsData.datumy,
+            datasets: propsData.dataSetsActiveCases.datasets
         },
 
         options: {
@@ -106,7 +110,7 @@ function BarGrafSvk({ props }) {
             animation: {
                 duration: 500,
                 onProgress: function () {
-                    if (props.nacitatViacUdajov === false) {
+                    if (propsData.nacitatViacUdajov === false) {
                         var chartInstance = this.chart,
                             ctx = chartInstance.ctx;
                         ctx.textAlign = 'center';
@@ -194,6 +198,11 @@ function BarGrafSvk({ props }) {
         <div>
             <div className="mainDivPreGrafy" >
 
+
+                <div className="NacitatViacDniDoGrafov" onClick={() => props.ZmenitLoadMoreData()}>
+                    {props.loadMoreData.bool ? <FiBarChart className="chartIcon" /> : <BiBarChart className="chartIcon" />}
+                    {props.loadMoreData.text}
+                </div>
                 <div className="barsGrafy" >
                     <h1>Denný prírastok nakazených</h1>
                     <Bar
@@ -202,6 +211,10 @@ function BarGrafSvk({ props }) {
                     />
                 </div>
 
+                <div className="NacitatViacDniDoGrafov" onClick={() => props.ZmenitLoadMoreData()}>
+                    {props.loadMoreData.bool ? <FiBarChart className="chartIcon" /> : <BiBarChart className="chartIcon" />}
+                    {props.loadMoreData.text}
+                </div>
                 <div className="barsGrafy" >
                     <h1>Celkový počet aktívnych prípadov</h1>
                     <Bar
@@ -210,15 +223,22 @@ function BarGrafSvk({ props }) {
                     />
                 </div>
 
+                <div className="NacitatViacDniDoGrafov" onClick={() => props.ZmenitLoadMoreData()}>
+                    {props.loadMoreData.bool ? <FiBarChart className="chartIcon" /> : <BiBarChart className="chartIcon" />}
+                    {props.loadMoreData.text}
+                </div>
                 <div className="barsGrafy"  >
                     <h1>Celkový prírastok nakazených/vyliečených</h1>
-
                     <Bar
                         data={allData.dataSetsCases}
                         options={allData.options}
                     />
                 </div>
 
+                <div className="NacitatViacDniDoGrafov" onClick={() => props.ZmenitLoadMoreData()}>
+                    {props.loadMoreData.bool ? <FiBarChart className="chartIcon" /> : <BiBarChart className="chartIcon" />}
+                    {props.loadMoreData.text}
+                </div>
                 <div className="barsGrafy" >
                     <h1>Denný prírastok nakazených/testov</h1>
                     <Bar

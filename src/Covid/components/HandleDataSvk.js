@@ -1,6 +1,5 @@
 import React from 'react'
 import FormatNumber from './FormatNumber'
-// import coronaIcon from "../../imgs/coronaIcon.svg"
 // import '../css/dataSlovakia.scss'
 import { GiDeathSkull } from "react-icons/gi";
 import { FaPlusCircle } from "react-icons/fa";
@@ -9,33 +8,25 @@ import TabulkaMesta from '../TabulkaMesta';
 
 function HandleDataSvk({ mainData }) {
 
-    // let a = mainData[0].chart[Object.keys(mainData[0].tested_chart).length].recovered
-    // let b = mainData[0].chart[Object.keys(mainData[0].tested_chart).length - 1].recovered
-    // let c = a - b
-    // let newRecovered = 0
-    // if (c > 0) {
-    //     newRecovered = a - b
-    // }
-
-
     function GetLastData(prop) {
-        if (prop === "tests") {
-            let a = mainData[0].tested_chart[Object.keys(mainData[0].tested_chart).length - 1].tested
-            let b = mainData[0].tested_chart[Object.keys(mainData[0].tested_chart).length - 1].infected
-            // if ((a - b) > 0)
-            return <>Počet negatívnych testov <span className="negatTested">{a - b}</span></>
-        }
-        else if (prop === "recovered") {
+        // if (prop === "tests") {
+        //     let a = mainData[0].tested_chart[Object.keys(mainData[0].tested_chart).length - 1].tested
+        //     let b = mainData[0].tested_chart[Object.keys(mainData[0].tested_chart).length - 1].infected
+        //     // if ((a - b) > 0)
+        //     return <>Počet negatívnych testov <span className="negatTested">{a - b}</span></>
+        // }
+         if (prop === "recovered") {
             let a = mainData[0].chart[Object.keys(mainData[0].tested_chart).length].recovered
             let b = mainData[0].chart[Object.keys(mainData[0].tested_chart).length - 1].recovered
             // if ((a - b) > 0)
-            return <>Počet nových vyliečených <span className="newRecovered">+{a - b}</span></>
+            // return <>Počet nových vyliečených <span className="newRecovered">+{a - b}</span></>
+            return a - b
         }
         else if (prop === "deaths") {
             let a = mainData[0].chart[Object.keys(mainData[0].tested_chart).length].deaths
             let b = mainData[0].chart[Object.keys(mainData[0].tested_chart).length - 1].deaths
             if ((a - b) > 0)
-                return <>Počet nových úmrtí <span className="newDeaths">{a - b}</span></>
+                return a - b
         }
         else if (prop==="recovered2"){
             let a = mainData[0].chart[Object.keys(mainData[0].tested_chart).length].recovered
@@ -97,11 +88,9 @@ function HandleDataSvk({ mainData }) {
             )
         }
     }
-
     return (
         <>
             <div className="cardsDivNew">
-
                 <div className="cardsNew">
                     <div className="iconInCard cases">
                         <RiVirusLine />
@@ -112,7 +101,7 @@ function HandleDataSvk({ mainData }) {
                     <div className="mainText cases">
                         <FormatNumber prop={mainData[0].cases} />
                         <span className="plusInfected">+{mainData[0].tested_chart[Object.keys(mainData[0].tested_chart).length - 1].infected}</span>
-                        </div>
+                    </div>
                     <div className="underText">
                         Počet aktívnych prípadov:    <span><FormatNumber prop={mainData[0].active} /></span><br />
                     Počet testov:    <span><FormatNumber prop={mainData[0].tests} /></span>
@@ -131,7 +120,6 @@ function HandleDataSvk({ mainData }) {
                     </div>
                     <div className="underText">
                         {numberTrans3(mainData[0].cases, mainData[0].recovered)}
-
                     </div>
                 </div>
 
@@ -143,6 +131,13 @@ function HandleDataSvk({ mainData }) {
                     <div className="upperText">Počet úmrtí</div>
                     <div className="mainText deaths">
                         <FormatNumber prop={mainData[0].deaths} />
+                        {
+                            GetLastData("deaths") > 0 ?
+                                <span className="plusDeaths">+<FormatNumber prop={GetLastData("deaths")} /></span>
+                            : null
+                        }
+                    {/* <span className="plusDeaths">+{GetLastData("deaths")}</span> */}
+
                     </div>
                     <div className="underText">
                         {numberTrans3(mainData[0].cases, mainData[0].deaths)}
@@ -150,28 +145,22 @@ function HandleDataSvk({ mainData }) {
                 </div>
 
             </div>
-            <div className="lastData">
+            <div className="dataFromYesterday">
                 <h1>Údaje za {GetTheDay()}</h1>
-                <div className="containerFor2DivsFlex">
+                <div className="wrapperForGrid">
                     <div>
-                        Počet nových nakazených: <span className="newCases">+{mainData[0].tested_chart[Object.keys(mainData[0].tested_chart).length - 1].infected}</span><br />
-                        {GetLastData("recovered")}<br />
-
-
-                        {/* Počet negatívnych testov: */}
-                        {/* <span>
-                        {mainData[0].tested_chart[Object.keys(mainData[0].tested_chart).length - 1].tested - mainData[0].tested_chart[Object.keys(mainData[0].tested_chart).length - 1].infected}
-                    </span><br /> */}
+                        <h6>Počet  nakazených</h6>
+                        <span className="newCases">+{mainData[0].tested_chart[Object.keys(mainData[0].tested_chart).length - 1].infected}</span>
                     </div>
                     <div>
-                        Počet vykonaných testov: <span className="newTested">{mainData[0].tested_chart[Object.keys(mainData[0].tested_chart).length - 1].tested}</span> <br />
-                        {GetLastData("tests")} <br />
-                        {/* Počet nových vyliečených: <span>{GetLastData()}</span> <br /> */}
-                        {/* {GetTodayDeaths()} */}
-                        {GetLastData("deaths")}
+                        <h6>Počet  vyliečených </h6>
+                        <span className="newRecovered">+{GetLastData("recovered")}</span> 
+                    </div>
+                    <div>
+                        <h6>Počet testovaných</h6>
+                        <span className="newTested">+{mainData[0].tested_chart[Object.keys(mainData[0].tested_chart).length - 1].tested}</span> 
                     </div>
                 </div>
-                {/* <TabulkaMesta tabulkaData={dataSvk[0].districts} /> */}
                     <TabulkaMesta tabulkaData={mainData[0].districts} />
             </div>
         </>

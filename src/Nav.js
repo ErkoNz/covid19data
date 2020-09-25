@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import './nav.css'
+// import './nav.css'
+import './Covid/css/nav.scss'
 import earthIcon from "./imgs/earth.svg"
 import slovakiaIcon from "./imgs/slovakiaIcon.svg"
 

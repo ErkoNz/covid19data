@@ -1,4 +1,4 @@
-.NacitatViacDniDoGrafov {
+/* .NacitatViacDniDoGrafov {
 	background: white;
 	padding: 5px;
 	width: 40%;
@@ -14,7 +14,6 @@
 }
 
 .NacitatViacDniDoGrafov:hover {
-	/* font-size: 17px; */
 	transform: scale(1.1);
 }
 
@@ -35,7 +34,6 @@ tr:hover {
 
 .divTable table th {
 	color: rgb(85, 85, 85);
-	/* position: sticky; */
 	top: -1px;
 	background: white;
 	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
@@ -65,9 +63,7 @@ table th:hover {
 	color: rgb(83, 83, 83);
 	font-size: 13px;
 	white-space: nowrap;
-	/* color: red; */
 	text-align: left;
-	/* border: 1px solid red; */
 }
 
 .firstCaseNumber {
@@ -213,4 +209,4 @@ table th:hover {
 	td {
 		margin-left: auto;
 	}
-}
+} */

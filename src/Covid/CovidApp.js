@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import './css/covid.css'
-import './css/covidDesign.css'
+// import './css/covidDesign.css'
 import { Link } from 'react-router-dom'
 import SvetTabulka from "./SvetTabulka"
 import { AiOutlineDoubleRight } from "react-icons/ai";
 // import DougnatChart from "./DougnatChart"
 import DataWorld from './components/DataWorld'
+import LoadingAnimation from './components/LoadingAnimation';
 
 function CovidApp() {
     const [mainData, setMainData] = useState()
@@ -70,7 +71,6 @@ function CovidApp() {
             || state.direction['todayDeaths']) ?
             <div className="covidApp">
                 <DataWorld mainData={mainData} />
-                {/* <DougnatChart cases={doughnatData[0]} recovered={doughnatData[1]} deaths={doughnatData[2]} /> */}
                 <br></br>
                 <br></br>
                 <div className="SlovenskeUdajeLink" >
@@ -85,7 +85,8 @@ function CovidApp() {
                 <br></br><br></br>
                 <SvetTabulka countriesData={countriesData} mainData={mainData} sortBy={sortBy} />
             </div >
-            : null
+            : <LoadingAnimation />
+
 
     )
 }

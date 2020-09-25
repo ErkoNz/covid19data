@@ -1,0 +1,153 @@
+@mixin lower-then-desktop {
+	@media (max-width: 900px) {
+		@content;
+	}
+}
+// @include lower-then-desktop() {
+
+.navApp {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 10vh;
+	background: rgb(37, 44, 46);
+	color: white;
+	@include lower-then-desktop() {
+		width: 100.13888888889%;
+	}
+
+	.navLinks {
+		width: 50%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		list-style: none;
+		font-size: 18px;
+		height: 9vh;
+
+		@include lower-then-desktop() {
+			width: 95%;
+			font-size: 13px;
+			justify-content: space-around;
+		}
+
+		/* .logoIcon{
+    display: inline;
+    margin: 10px;
+} */
+
+		/* .testt{
+    font-size: 40px;
+    margin: 0px 0 -10px 0;
+    animation:spin 6s linear infinite;
+} */
+
+		// @keyframes spin {
+		// 	100% {
+		// 		-webkit-transform: rotate(360deg);
+		// 		transform: rotate(360deg);
+		// 	}
+		// }
+
+		.novePripady {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			& div {
+				margin-top: 10px;
+				color: rgb(207, 207, 207);
+				position: absolute;
+				font-size: 14px;
+				@include lower-then-desktop() {
+					margin-top: 7px;
+					font-size: 10px;
+				}
+			}
+			& div span {
+				color: rgb(255, 61, 61);
+				font-weight: bold;
+				font-size: 15px;
+				@include lower-then-desktop() {
+					font-size: 12px;
+				}
+			}
+		}
+
+		// .novePripady div {
+
+		// }
+
+		// .novePripady div span {
+
+		// }
+
+		.earthIcon {
+			width: 30px;
+			margin-right: 10px;
+			margin-bottom: -8px;
+			@include lower-then-desktop() {
+				width: 17px;
+				// margin-right: 4px;
+				margin-bottom: -2px;
+				// margin-left: -50px;
+			}
+		}
+		.svkIcon {
+			width: 60px;
+			margin-right: 10px;
+			margin-bottom: -8px;
+
+			@include lower-then-desktop() {
+				width: 30px;
+				margin-right: 2px;
+				margin-bottom: -2px;
+			}
+		}
+
+		/* body, html {
+    position: relative;
+overflow-x: hidden;
+}  */
+
+		li:hover {
+			transform: scale(1.1);
+		}
+
+		li {
+			transition: .2s;
+		}
+
+		// @media only screen and (max-width: 870px) {
+		// 	.novePripady div {
+		// 		margin-top: 7px;
+		// 		font-size: 10px;
+		// 	}
+
+		// 	.novePripady div span {
+		// 		font-size: 12px;
+		// 	}
+
+		// 	.navLinks {
+		// 		width: 75%;
+		// 		font-size: 13px;
+		// 	}
+
+		// 	.earthIcon {
+		// 		width: 15px;
+		// 		margin-right: 4px;
+		// 		margin-bottom: -2px;
+		// 		margin-left: -50px;
+		// 	}
+		// 	.svkIcon {
+		// 		width: 30px;
+		// 		margin-right: 2px;
+		// 		margin-bottom: -2px;
+		// 	}
+
+		// 	.navApp {
+		// 		width: 100.13888888889%;
+		// 	}
+		// }
+	}
+}

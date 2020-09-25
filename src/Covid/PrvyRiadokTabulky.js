@@ -10,8 +10,9 @@ function PrvyRiadokTabulky(props) {
     const [sipkyDole, setSipkyDole] = useState(true)
     const [sipkaKontinenty, setSipkaKontinenty] = useState({
         transition: 'all .2s ease-in',
-        marginBottom: '-3px',
-        marginLeft: '3px',
+        position: 'absolute',
+        marginTop: '2px',
+        marginLeft: '2px'
     })
     const [styleForRollDown, setStyleForRollDown] = useState({
         position: 'absolute',
@@ -52,8 +53,9 @@ function PrvyRiadokTabulky(props) {
             setSipkaKontinenty({
                 transform: "rotate(180deg)",
                 transition: 'all .2s ease-in',
-                marginBottom: '-3px',
-                marginLeft: '3px',
+                position: 'absolute',
+                marginTop: '2px',
+                marginLeft: '2px'
             })
             setStyleForRollDown({
                 // background: 'rgb(234, 234, 234)',
@@ -72,8 +74,9 @@ function PrvyRiadokTabulky(props) {
             setSipkaKontinenty({
                 transform: "rotate(0deg)",
                 transition: 'all .2s ease-in',
-                marginBottom: '-3px',
-                marginLeft: '3px',
+                position: 'absolute',
+                marginTop: '2px',
+                marginLeft: '2px'
             })
         }
     }
@@ -81,8 +84,6 @@ function PrvyRiadokTabulky(props) {
     return (
         styleForRollDown && dataKontinenty && sipkaKontinenty && styleForRollDown && props.mainData && props ?
             <>
-                {/* {console.log("PrvyRiadokTabulky")} */}
-                {/* {console.log(styleForRollDown, dataKontinenty, sipkaKontinenty, styleForRollDown, props.mainData, props)} */}
                 {props.kontinent === "Svet" ?
                     <>
                         <tr key={-1} style={{ background: 'rgb(234, 234, 234)' }} >

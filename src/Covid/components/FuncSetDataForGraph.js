@@ -43,7 +43,7 @@ function FuncSetDataForGraph(setDataForChart, datumy, dailyCases, valueActiveCas
                     label: "Celkový počet aktivnych prípadov",
                     data: valueActiveCases,
                     backgroundColor: "#cb464a",
-                    hoverBackgroundColor: '#16b8f3',
+                    hoverBackgroundColor: '#b42429',
                 }
             ]
         },
@@ -54,7 +54,7 @@ function FuncSetDataForGraph(setDataForChart, datumy, dailyCases, valueActiveCas
                     label: "Denný prírastok nakazených",
                     data: dailyCases,
                     backgroundColor: "salmon",
-                    hoverBackgroundColor: 'salmon',
+                    hoverBackgroundColor: '#f96353',
                 }
             ]
         },
@@ -69,9 +69,7 @@ function FuncSetDataForGraph(setDataForChart, datumy, dailyCases, valueActiveCas
                 }
             ]
         },
-
-    }
-    )
+    })
 }
 
 export default FuncSetDataForGraph

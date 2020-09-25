@@ -11,9 +11,7 @@ import ActualTabulka from './components/ActualTabulka';
 const LOCAL_STORAGE_KEY = 'zoradenieLocalStorage'
 const LOCAL_STORAGE_KEY_STAR = 'starsTabulkaMesta'
 
-
 function TabulkaMesta(props) {
-    // const [ShowTableMestaOnClick, setShowTableMestaOnClick] = useState()
     const data = props.tabulkaData
     const [sorting, setSorting] = useState({
         desc: true,
@@ -26,29 +24,17 @@ function TabulkaMesta(props) {
             display: 'none',
         }
     })
-    // const [ShowHide, setShowHide] = useState({
-    //     display: 'none'
+    // const [textPreZobrazenieObci, setTextPreZobrazenieObci] = useState({
+    //     boolean: true,
+    //     text: "Zobraziť údaje o jednotlivých obciach"
     // })
 
-    const [ShowHide, setShowHide] = useState()
-    const [textPreZobrazenieObci, setTextPreZobrazenieObci] = useState({
-        boolean: true,
-        text: "Zobraziť údaje o jedntlivých obciach"
-    })
-    const [sipkaObce, setSipkaObce] = useState({
-        transition: 'all .2s ease-in',
-        marginBottom: '-3px',
-        marginLeft: '3px',
-    })
 
     const [rerender, setRerender] = useState(true)
     const [onlyStars, setOnlyStars] = useState(false)
 
 
     useEffect(() => {
-        setShowHide({
-            maxHeight: '0px',
-        })
         CompareCislo(data, true, JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY)))
         if (JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY)) === "amountDelta")
             setStylesArrows({
@@ -95,14 +81,15 @@ function TabulkaMesta(props) {
     }
     return (
         <>
-            <div className="textPreZObrazenieTabulky" onClick={() => ZmeniTextTabulkaMesta(textPreZobrazenieObci, setTextPreZobrazenieObci, setShowHide, setSipkaObce)}>{textPreZobrazenieObci.text} <IoIosArrowDown style={sipkaObce} /></div>
-            <div style={ShowHide} className="tabulkaOkrajDivMain">
+            <div className="textPreZObrazenieTabulky" onClick={() => ZmeniTextTabulkaMesta()}>
+                <IoIosArrowDown className="sipkaScrollMesta" />
+            </div>
 
-
+            <div className="tabulkaOkrajDivMain" >
                 <input type="text" id="myInput" onKeyUp={searchInputMesta} placeholder="Hľadať.." className="inputSearch" />
                 <div className="tabulkaMesta" >
 
-                    <table id="myTable" className="tabulkaMesta">
+                    <table id="myTable">
                         <thead>
                             <tr >
                                 <th onClick={() => SetingStarsAndLocalStorage()}>Obec {ShowOnlyStars()}</th>
@@ -118,6 +105,7 @@ function TabulkaMesta(props) {
                             <ActualTabulka data={data} onlyStars={onlyStars} rerender={rerender} setRerender={setRerender} />
                         </tbody>
                     </table>
+
                 </div>
             </div>
         </>

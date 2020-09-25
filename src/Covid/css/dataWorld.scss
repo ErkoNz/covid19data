@@ -4,6 +4,12 @@
 	}
 }
 
+@mixin bit-more-smaller {
+	@media (max-width: 1100px) {
+		@content;
+	}
+}
+
 @mixin lower-then-desktop {
 	@media (max-width: 900px) {
 		@content;
@@ -13,9 +19,9 @@
 .cardsDivNew {
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
-	// border: 2px solid red;
-	width: 65%;
+	justify-content: space-between;
+	width: 75%;
+	max-width: 1700px;
 	// margin-left: 15%;
 	// margin-right: 15%;
 	margin: auto;
@@ -26,30 +32,35 @@
 	@include bit-smaller {
 		// margin-left: 5%;
 		// margin-right: 5%;
-		width: 85%;
+		width: 95%;
 	}
 	@include lower-then-desktop() {
 		flex-direction: column;
 		// min-width: 230px;
 		// max-width: 350px;
+		padding-top: 15px;
 		width: 100%;
 	}
 
 	.cardsNew {
-		// border: 1px solid red;
-		width: 30%;
+		min-width: 30%;
+		// width: auto;
 		position: relative;
 		border-radius: 6px;
 		background: white;
-		margin-bottom: 30px;
+		// margin-bottom: 30px;
 		padding: 15px;
 		padding-top: 10px;
-		margin: 20px;
 		box-shadow: 2px 2px 15px -12px rgba(42, 42, 42, 0.75);
 		letter-spacing: 0.5px;
 
+		// &:nth-child(1) {
+		// 	// margin-right: 20px;
+		// }
+
 		@include bit-smaller {
-			// width: 100%;
+			letter-spacing: 0.2px;
+			min-width: 32%;
 		}
 		@include lower-then-desktop() {
 			width: 90%;
@@ -57,6 +68,14 @@
 			padding-top: 0px;
 			margin-bottom: 0px;
 			transform: scale(0.95);
+			&:nth-child(1) {
+				margin-bottom: 20px;
+				margin-top: 10px;
+			}
+			&:nth-child(3) {
+				margin-top: 20px;
+			}
+
 			// margin: 20px 0 20px 0;
 			// width: 100%;
 			// max-width: 300px;
@@ -72,13 +91,13 @@
 			text-align: left;
 			font-size: 1.7rem;
 			position: absolute;
-			margin-top: 5px;
-			margin-left: 5px;
+			margin-top: 7px;
+			// margin-left: 5px;
 		}
 		.upperText {
-			line-height: 2;
+			margin-top: 4px;
+			line-height: 1.7;
 			border-bottom: 1px solid rgb(180, 180, 180);
-			// border: 1px solid red;
 			// width: 60%;
 			margin-left: 20%;
 			margin-right: 20%;
@@ -89,31 +108,39 @@
 	}
 
 	.mainText {
-		font-size: 2.7rem;
+		// font-size: clamp(1.7rem, 3vw, 2.1rem);
+		font-size: 2.2rem;
 		font-weight: 700;
-		// border: 1px solid red;
 		position: relative;
+		// border: 2px solid green;
+		@include bit-smaller {
+			font-size: 2rem;
+			letter-spacing: -0.3px;
+		}
+
 		span {
-			font-size: .7rem;
+			// border: 1px solid red;
+			font-size: .9rem;
+			// font-size: clamp(0.7rem, 1vw, 0.9rem);
 			color: rgb(0, 0, 124);
+			bottom: 7px;
+			// margin-right: -40px;
+			position: absolute;
+			@include bit-smaller {
+				font-size: .75rem;
+			}
 		}
 
 		.plusInfected {
 			color: rgb(255, 74, 74);
-			// font-size: 0rem;
-			font-size: .9rem;
-			position: absolute;
-			// margin-right: -2.5rem;
-			bottom: 7px;
 		}
 
 		.plusRecovered {
 			color: green;
-			// font-size: 0rem;
-			font-size: .9rem;
-			position: absolute;
-			// margin-right: -2.5rem;
-			bottom: 7px;
+		}
+
+		.plusDeaths {
+			color: rgb(107, 107, 107);
 		}
 	}
 
@@ -122,12 +149,19 @@
 	}
 	.recovered {
 		color: rgb(0, 131, 0);
+		.krajinaNezverejnuje {
+			font-size: 1rem;
+			margin: 15px;
+			color: rgb(112, 112, 112);
+		}
 	}
 	.deaths {
 		color: rgb(87, 87, 87);
 	}
 	.underText {
+		margin-top: 5px;
 		font-size: 0.8rem;
+		line-height: 1.5;
 		color: rgb(110, 110, 110);
 
 		span:nth-child(1) {
@@ -140,54 +174,88 @@
 	}
 }
 
-.lastData {
-	// border: 1px solid red;
+.dataFromYesterday {
 	width: fit-content;
 	margin: auto;
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-bottom: 60px;
 	background: white;
 	border-radius: 10px;
-	padding: 5px 20px 5px 20px;
-	box-shadow: 2px 2px 15px -12px rgba(42, 42, 42, 0.75);
-	letter-spacing: .6px;
-	// border: 1px solid yellow;
+	// padding: 5px 20px 5px 20px;
+	letter-spacing: .3px;
+	position: relative;
+	// padding-bottom: 25px;
+	height: fit-content;
+	// border: 1px solid red;
 	@include lower-then-desktop() {
-		white-space: nowrap;
-		// width: 70%;
-		// min-width: 230px;
-		// max-width: 350px;
-		// transform: scale(0.95);
-		padding: 0;
-
+		// padding-top: 20px;
 		width: 95%;
-		// max-width: 350px;
 	}
-	.containerFor2DivsFlex {
-		margin-top: 15px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
+	.wrapperForGrid {
+		display: grid;
+		// grid-auto-rows: 1fr;
+		grid-template-columns: auto auto auto;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		font-size: 1rem;
 		@include lower-then-desktop() {
-			flex-direction: column;
 		}
 
 		div {
-			margin-left: 50px;
-			margin-right: 50px;
+			padding: 40px;
+			position: relative;
+			@include lower-then-desktop() {
+				padding: 35px 25px;
+				padding-top: 30px;
+			}
+
+			h6 {
+				font-weight: normal;
+				font-size: 1rem;
+				// border: 1px solid red;
+				// white-space: nowrap;
+				@include lower-then-desktop() {
+					font-size: .8rem;
+				}
+			}
+		}
+
+		div:nth-child(1) {
+			&::after {
+				content: '';
+				position: absolute;
+				width: 1px;
+				height: 66%;
+				top: calc(66% / 4);
+				right: 0;
+				background: rgb(212, 212, 212);
+			}
+		}
+
+		div:nth-child(2) {
+			&::after {
+				content: '';
+				position: absolute;
+				width: 1px;
+				height: 66%;
+				top: calc(66% / 4);
+				right: 0;
+
+				background: rgb(212, 212, 212);
+			}
+		}
+
+		div:nth-child(3) {
+			// background: rgba(197, 204, 255, 0.103);
 		}
 	}
 	span {
 		font-weight: bold;
-		font-size: 1.3rem;
+		font-size: 2rem;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		div {
-			display: inline;
-
-			white-space: nowrap;
-			// display: inline;
+		@include lower-then-desktop() {
+			font-size: 1.6rem;
 		}
 	}
 
@@ -195,12 +263,11 @@
 		color: rgb(185, 0, 0);
 	}
 	.newTested {
-		color: rgb(16, 9, 122);
-		color: salmon;
+		color: #1f5baa;
 	}
 	.negatTested {
-		color: rgb(39, 189, 89);
-		color: rgb(17, 6, 173);
+		// color: rgb(39, 189, 89);
+		color: rgb(57, 45, 230);
 	}
 	.newRecovered {
 		color: rgb(0, 131, 0);
@@ -220,23 +287,24 @@
 	// }
 	h1 {
 		// margin: 0;
-		margin-top: 5px;
-		padding-bottom: 5px;
+		padding-top: 15px;
+		// padding-bottom: 5px;
 		color: rgb(77, 77, 77);
 		white-space: nowrap;
 		position: relative;
 		font-size: 1.6rem;
-
 		&::after {
-			background: rgb(212, 212, 212);
-			position: absolute;
-			// width: 30%;
-			height: 1px;
-			content: '';
-			bottom: -5px;
-			left: 35%;
-			right: 35%;
-			// margin-bottom: 10px;
+			// background: rgb(212, 212, 212);
+			// position: absolute;
+			// height: 1px;
+			// content: '';
+			// bottom: -5px;
+			// left: 35%;
+			// right: 35%;
+		}
+		@include lower-then-desktop() {
+			padding-top: 12px;
+			font-size: 1.4rem;
 		}
 	}
 }

@@ -22,7 +22,8 @@
 
 .barsGrafy h1 {
 	color: rgb(70, 70, 70);
-	font-size: 20px;
+	font-size: clamp(16px, 4vw, 22px);
+	padding: .4em;
 }
 
 .testingGrafy {
@@ -31,6 +32,12 @@
 	padding-top: 25px;
 }
 
+.testingGrafy h1 {
+	font-size: 1.6rem;
+	/* border: 1px solid red; */
+	margin-left: 30px;
+	margin-right: 30px;
+}
 /* .testingGrafy h1 {
     margin-top: 0px;
 } */

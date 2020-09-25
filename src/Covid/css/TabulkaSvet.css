@@ -1,53 +1,49 @@
-
-
-.kontinenty{
-margin-top: 20px;
+.kontinenty {
+	margin-top: 20px;
 }
 
 .kontinenty button {
-    padding: 10px;
-    border: none;
-    margin: 0 4px 0 4px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    background: rgb(238, 238, 238);
-    /* background: rgb(211, 211, 211); */
-    font-size: 14px;
+	padding: 10px;
+	border: none;
+	margin: 0 4px 0 4px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background: rgb(238, 238, 238);
+	/* background: rgb(211, 211, 211); */
+	font-size: 14px;
 
-    /* background: rgb(216, 216, 216); */
-    /* color: white; */
+	/* background: rgb(216, 216, 216); */
+	/* color: white; */
 
-      /* box-shadow: inset 0px 0px 5px rgb(179, 179, 179); */
-    /* transform: translate(1px,2px); */
-    /* font-weight: bold; */
+	/* box-shadow: inset 0px 0px 5px rgb(179, 179, 179); */
+	/* transform: translate(1px,2px); */
+	/* font-weight: bold; */
 }
 
-
-
-.kontinenty button:hover{
-    background: rgb(231, 231, 231);
-    cursor: pointer;
+.kontinenty button:hover {
+	background: rgb(231, 231, 231);
+	cursor: pointer;
 }
 
-.kontinenty button:focus{
-    background: rgb(223, 223, 223);
-    outline: none;
+.kontinenty button:focus {
+	background: rgb(223, 223, 223);
+	outline: none;
 }
 
 label {
-    color: rgba(255, 255, 255, 0);
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
+	color: rgba(255, 255, 255, 0);
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
 }
 @media only screen and (max-width: 740px) {
-    .kontinenty button {
-        padding: 8px;
-        margin: 4px;
-        font-size: 12px;
-        border-radius: 3px;
-    }
+	.kontinenty button {
+		padding: 8px;
+		margin: 4px;
+		font-size: 12px;
+		border-radius: 3px;
+	}
 }

@@ -4,50 +4,71 @@
 	}
 }
 
-//button
 .textPreZObrazenieTabulky {
-	background: white;
-	padding: 5px;
-	width: 70%;
-	margin: auto;
-	align-self: center;
-	// margin-left: 50%;
-	// transform: translateX(-50%);
-	border-radius: 5px;
-	// -webkit-box-shadow: 1px 1px 5px -4px rgba(0, 0, 0, 0.75);
-	// -moz-box-shadow: 1px 1px 5px -4px rgba(0, 0, 0, 0.75);
-	// box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.486);
-	background: rgb(245, 245, 245);
-	// background: red;
-	margin-bottom: -5px;
-	white-space: initial;
+	padding: 10px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	// background: rgba(223, 223, 223, 0.164);
+	font-size: 1.05rem;
+	// width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	// border: 1px solid rgb(221, 221, 221);
+	border-top: 1px solid rgb(226, 226, 226);
+	position: relative;
+	@include lower-then-desktop {
+		// font-size: .9rem;
+	}
 	&:hover {
 		cursor: pointer;
 	}
 
-	@include lower-then-desktop {
-		width: 95%;
+	&::before {
+		content: "Zobraziť údaje o jednotlivých obciach";
+	}
+
+	.sipkaScrollMesta {
+		transition: .3s;
+		margin-left: 5px;
+		margin-top: 2px;
+		animation: sdb05 1.8s;
+		animation-iteration-count: 2;
+
+		@keyframes sdb05 {
+			0% {
+				// -webkit-transform: translate-Y(0);
+				transform: translateY(-4px);
+				opacity: 0;
+			}
+			50% {
+				opacity: 1;
+			}
+			100% {
+				transform: translateY(4px);
+				opacity: 0;
+			}
+		}
+	}
+
+	.rotateArrow {
+		transition: .3s;
+		transform: rotateX(180deg);
+		animation: none;
 	}
 }
 
 .tabulkaOkrajDivMain {
-	// max-height: 600px;
-	// margin-top: 30px;
-	// height: 0px;
-	margin-top: 30px;
-	// height: 600px;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	// padding-top: 20px;
 	transition: .4s;
-	// border: 1px solid red;
-	// margin: 0;
-	// width: 100%;
+	max-height: 0px;
 
 	.inputSearch {
+		margin-top: 25px;
 		padding: 10px;
 		font-size: 16px;
 		border-radius: 5px;
@@ -58,28 +79,26 @@
 	.tabulkaMesta {
 		margin-top: 20px;
 		font-size: 16px;
-		// width: 60%;
-		max-width: 700px;
 		overflow-y: scroll;
 		transition: .4s;
-		// background: white;
+		width: 100%;
 		@include lower-then-desktop {
 			width: 100%;
-			// max-width: 100%;;
 			font-size: 12px;
 		}
 
-		.tabulkaMesta {
+		table {
 			width: 100%;
 			border: none;
-			th {
-				white-space: initial;
-			}
+			min-width: 100%;
+
 			th,
 			td {
 				border: none;
 				padding: 10px;
 				border-bottom: 1px solid rgba(148, 148, 148, 0.5);
+				text-align: left;
+
 				@include lower-then-desktop {
 					padding-left: 5px;
 					padding-right: 2px;
@@ -92,26 +111,19 @@
 
 			th:first-child {
 				.star {
-					// padding-left: 10px;
-					// padding-right: 10px;
-					// padding: 0;
 					margin-left: 0px;
 					margin-bottom: -3px;
 				}
-				// .starActive{
-				//     padding-left: 10px;
-				//     padding-right: 10px;
-				//     margin-left: -10px;
-				// }
 			}
 			th {
+				white-space: initial;
+				cursor: pointer;
 				color: rgb(88, 88, 88);
 				position: sticky;
 				top: -1px;
 				box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.4);
 				padding-right: 10px;
 				background: white;
-				// border:2px solid red;
 				.sipkaNakazeni {
 					margin-bottom: -3px;
 					margin-left: 5px;
@@ -135,35 +147,23 @@
 					background: rgb(248, 248, 248);
 				}
 				.star {
-					// padding-left: 10px;
-					// padding-right: 10px;
 					color: rgb(160, 160, 160);
 					margin-left: -5px;
 					cursor: pointer;
 					margin-bottom: -2px;
 					margin-right: 10px;
-					// color: red;
 				}
-				// .starActive{
-				//     padding-left: 10px;
-				//     padding-right: 10px;
-				//     color: rgb(160, 160, 160);
-				//     margin-left: -10px;
-				//     cursor: pointer;
-				// }
 			}
 		}
-		// .plusPreObecInfected{
-		//     color: red;
-		//     font-size: 12px;
-		// }
+	}
+}
 
-		// .plusPreObecRecovered{
-		//     color: green;
-		//     font-size: 15px;
-		//     @include lower-then-desktop {
-		//         font-size: 12px;
-		//     }
-		// }
+.changeHeight {
+	max-height: 600px;
+}
+
+.changeText {
+	&::before {
+		content: "Schovať údaje o jednotlivých obciach";
 	}
 }

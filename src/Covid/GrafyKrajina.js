@@ -2,11 +2,13 @@ import React, { useState, useEffect } from 'react'
 import BarGraf from './BarGraf';
 import DougnatChart from './DougnatChart';
 import GetLastData from './components/GetLastData';
+import DataWorld from './components/DataWorld';
+import LoadingAnimation from './components/LoadingAnimation';
 
 const LOCAL_STORAGE_LASTDAY = "lastdayStorage"
 
 function GrafyKrajina(props) {
-    // console.log(props.location.state)
+    // console.log(props)
     const match = props.match
     const [dataforChart, setDataforChart] = useState()
     const [LastDayData, setLastDayData] = useState()
@@ -17,8 +19,8 @@ function GrafyKrajina(props) {
     })
 
     useEffect(() => {
-        if (!(match.params.id === "Svet"))
-            GetLastData(props, LOCAL_STORAGE_LASTDAY, setLastDayData)
+        // if (!(match.params.id === "Svet"))
+        GetLastData(props, LOCAL_STORAGE_LASTDAY, setLastDayData)
     }, [props])
 
     useEffect(() => {
@@ -45,9 +47,7 @@ function GrafyKrajina(props) {
                 data1 = await response1.json()
                 datumy = Object.keys(data1.timeline.cases)
                 valuesCases = Object.values(data1.timeline.cases)
-
                 valueRecovered = Object.values(data1.timeline.recovered)
-
                 valueDeaths = Object.values(data1.timeline.deaths)
 
             }
@@ -79,23 +79,51 @@ function GrafyKrajina(props) {
 
 
 
-
-
+            // let pomFordataForCards 
             if (LastDayData) {
-                let pom = Object.keys(data1.timeline.cases)[Object.keys(data1.timeline.cases).length - 1]
-                var d = new Date(pom);
-                d.setDate(d.getDate() + 1)
-                var lastDataDatum = d.getDate() + ". " + (d.getMonth() + 1) + ". " + d.getFullYear()
-                valuesCases.push(LastDayData.cases)
-                dailyCases.push(LastDayData.todayCases)
-                valueDeaths.push(LastDayData.deaths)
-                datumy.push(lastDataDatum)
-                valueRecovered.push(LastDayData.recovered)
-                valueActiveCases.push(LastDayData.active)
+                if (props.match.params.id !== "Svet") {
+                    let pom = Object.keys(data1.timeline.cases)[Object.keys(data1.timeline.cases).length - 1]
+                    var d = new Date(pom);
+                    d.setDate(d.getDate() + 1)
+                    var lastDataDatum = d.getDate() + ". " + (d.getMonth() + 1) + ". " + d.getFullYear()
+                    valuesCases.push(LastDayData.cases)
+                    dailyCases.push(LastDayData.todayCases)
+                    valueDeaths.push(LastDayData.deaths)
+                    datumy.push(lastDataDatum)
+                    valueRecovered.push(LastDayData.recovered)
+                    valueActiveCases.push(LastDayData.active)
+                }
+                // pomFordataForCards = {
+                //     mainData: [{
+                //         recovered: LastDayData.recovered,
+                //         cases: LastDayData.cases,
+                //         deaths: LastDayData.deaths,
+                //         active: LastDayData.active,
+                //         tests: LastDayData.tests,
+                //         todayCases: LastDayData.todayCases,
+                //         todayDeaths: LastDayData.todayDeaths,
+                //         todayRecovered: LastDayData.todayRecovered
+                //     }]
+                // }
             }
 
-            setDataforChart(
-                {
+            else {
+
+            }
+            if (LastDayData)
+                setDataforChart({
+                    dataForCards: {
+                        mainData: [{
+                            recovered: LastDayData.recovered,
+                            cases: LastDayData.cases,
+                            deaths: LastDayData.deaths,
+                            active: LastDayData.active,
+                            tests: LastDayData.tests,
+                            todayCases: LastDayData.todayCases,
+                            todayDeaths: LastDayData.todayDeaths,
+                            todayRecovered: LastDayData.todayRecovered
+                        }]
+                    },
                     nacitatViacUdajov: loadMoreData.bool,
                     datumy: datumy,
 
@@ -156,7 +184,7 @@ function GrafyKrajina(props) {
                     },
 
                 }
-            )
+                )
         }
 
         fetchData()
@@ -181,15 +209,16 @@ function GrafyKrajina(props) {
     return (
         dataforChart ?
             <div className="testingGrafy">
-                {/* {console.log("graffyyyy")} */}
 
                 {match.params.id === "Svet" ?
                     <h1>Covid-19 vo svete</h1>
-
                     :
                     < h1 > Covid - 19 v krajine {match.params.id}</h1>
                 }
 
+
+                <DataWorld mainData={dataforChart.dataForCards.mainData} />
+                {/* {console.log(dataforChart)} */}
                 <DougnatChart cases={dataforChart.dataSetsCases.datasets[0].data[dataforChart.dataSetsCases.datasets[0].data.length - 1]}
                     recovered={dataforChart.dataSetsRecovered.datasets[0].data[dataforChart.dataSetsRecovered.datasets[0].data.length - 1]}
                     deaths={dataforChart.dataSetsDeaths.datasets[0].data[dataforChart.dataSetsDeaths.datasets[0].data.length - 1]} />
@@ -203,7 +232,7 @@ function GrafyKrajina(props) {
                     <BarGraf props={dataforChart} />
                 </div>
             </div >
-            : null
+            : <LoadingAnimation />
     )
 }
 

@@ -7,7 +7,8 @@ import FormatNumber from './FormatNumber'
 import '../css/dataWorld.scss'
 
 function DataWorld({ mainData }) {
-
+    // console.log(mainData, "a")
+    // console.log(mainData)
 
     function numberTrans3(a, b) {
         if (a) {
@@ -27,8 +28,6 @@ function DataWorld({ mainData }) {
 
     return (
         <div className="cardsDivNew">
-
-
             <div className="cardsNew">
                 <div className="iconInCard cases">
                     <RiVirusLine />
@@ -36,10 +35,14 @@ function DataWorld({ mainData }) {
                 <div className="upperText">Počet nakazených</div>
                 <div className="mainText cases">
                     <FormatNumber prop={mainData[0].cases} />
+                    {mainData[0].todayCases ? <span className="plusInfected">+<FormatNumber prop={mainData[0].todayCases} /></span> : null}
+
                 </div>
                 <div className="underText">
-                    Počet aktívnych prípadov:    <span><FormatNumber prop={mainData[0].active} /></span>
+                    Počet aktívnych prípadov:    <span><FormatNumber prop={mainData[0].active} /></span><br />
+                    Počet testov:    <span><FormatNumber prop={mainData[0].tests} /></span>
                 </div>
+
             </div>
 
             <div className="cardsNew">
@@ -48,12 +51,17 @@ function DataWorld({ mainData }) {
                 </div>
                 <div className="upperText">Počet vyliečených</div>
                 <div className="mainText recovered">
-                    <FormatNumber prop={mainData[0].recovered} />
+                    {mainData[0].recovered > 0 ?
+                        <>
+                            <FormatNumber prop={mainData[0].recovered} />
+                            {mainData[0].todayRecovered ?
+                                <span className="plusRecovered">+<FormatNumber prop={mainData[0].todayRecovered} /></span>
+                                : null}
+                        </>
+                        : <div className="krajinaNezverejnuje">Krajina nezverejňuje počet vyliečených</div>}
                 </div>
                 <div className="underText">
-                    {/* Počet aktívnych prípadov:    <span><FormatNumber prop={mainData[0].active} /></span> */}
-                    {numberTrans3(mainData[0].cases, mainData[0].recovered)}
-
+                    {mainData[0].recovered > 0 && numberTrans3(mainData[0].cases, mainData[0].recovered)}
                 </div>
             </div>
 
@@ -65,6 +73,7 @@ function DataWorld({ mainData }) {
                 <div className="upperText">Počet úmrtí</div>
                 <div className="mainText deaths">
                     <FormatNumber prop={mainData[0].deaths} />
+                    {mainData[0].todayDeaths ? <span className="plusDeaths">+<FormatNumber prop={mainData[0].todayDeaths} /></span> : null}
                 </div>
                 <div className="underText">
                     {numberTrans3(mainData[0].cases, mainData[0].deaths)}

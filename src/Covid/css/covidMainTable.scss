@@ -1,0 +1,267 @@
+@mixin lower-then-desktop {
+	@media (max-width: 950px) {
+		@content;
+	}
+}
+
+// @include lower-then-desktop {
+//     width: 95%;
+// }
+
+.divTable {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	font-size: 18px;
+	overflow-y: auto;
+	min-width: 200px;
+	margin-bottom: 150px;
+	transition: .9s;
+	animation: .9s;
+
+	table,
+	th,
+	td {
+		border: 1px solid rgb(199, 199, 199);
+		border-collapse: collapse;
+		padding: 7px;
+		text-align: left;
+		@include lower-then-desktop {
+			margin-left: auto;
+			font-size: 0.67rem;
+			padding: 6px 4px 6px 4px;
+		}
+	}
+
+	table {
+		@include lower-then-desktop {
+			width: 100%;
+		}
+	}
+
+	td:not(:first-child) {
+		@include lower-then-desktop {
+			white-space: nowrap;
+		}
+	}
+
+	td:first-child {
+		@include lower-then-desktop {
+			padding-top: 0px;
+		}
+	}
+
+	th {
+		color: rgb(85, 85, 85);
+		top: -1px;
+		background: white;
+		box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+		padding-right: 25px;
+
+		@include lower-then-desktop {
+			padding-right: 5px;
+			font-size: .6rem;
+		}
+	}
+
+	tr {
+		background: white;
+	}
+	tr:hover {
+		background: rgba(173, 173, 173, 0.068);
+	}
+
+	th:hover {
+		cursor: pointer;
+	}
+
+	.firstCase {
+		margin-top: -8px;
+		margin-bottom: -5px;
+		color: rgb(119, 119, 119);
+		white-space: nowrap;
+		text-align: left;
+		@include lower-then-desktop {
+			margin-top: -3px;
+		}
+		.firstCaseNumber {
+			display: inline;
+			font-size: 13px;
+			@include lower-then-desktop {
+				font-size: .55rem;
+			}
+		}
+	}
+
+	.sortIcon {
+		color: rgb(153, 153, 153);
+		margin-top: 3px;
+		margin-left: 3px;
+		margin-right: 20px;
+		position: absolute;
+		transform: scale(.9);
+		@include lower-then-desktop {
+			margin-top: 3px;
+			margin-left: 0px;
+			margin-right: 5px;
+			position: relative;
+		}
+	}
+
+	th:first-child .sortIcon {
+		margin-top: 4px;
+		margin-left: 5px;
+	}
+
+	.KrajinaLink {
+		font-weight: bold;
+		color: #385898;
+		font-size: 18px;
+		@include lower-then-desktop {
+			font-size: 0.62rem;
+		}
+	}
+
+	.KrajinaLink:hover {
+		text-decoration: underline;
+	}
+
+	#myInput {
+		width: 250px;
+		margin: auto;
+		margin-bottom: 10px;
+	}
+
+	.zrolovaneKontinenty .firstCase,
+	.zrolovaneKontinenty td {
+		background: rgb(238, 238, 238);
+		font-size: 0.9rem;
+		@include lower-then-desktop {
+			font-size: 0.6rem;
+		}
+	}
+
+	.zrolovaneKontinenty td:nth-child(4) {
+		background: rgba(254, 255, 207, 0.8);
+	}
+
+	.spanJustHoverPointer {
+		cursor: pointer;
+	}
+}
+
+// 	.divTable table td {
+// 		font-size: 10.5px;
+// 		margin: 1px;
+// 		overflow: auto;
+// 	}
+// 	table,
+// 	th,
+// 	td {
+// 		padding: 4px 2px 4px 2px;
+// 	}
+
+// 	table th {
+// 		padding-right: 1px;
+// 	}
+
+// @media only screen and (max-width: 800px) {
+// 	.cardsDiv {
+// 		flex-direction: column;
+// 	}
+
+// 	.cards {
+// 		width: 100%;
+// 	}
+// }
+
+@media only screen and (max-width: 1200px) {
+	// .cardsDiv {
+	// 	margin-left: 0%;
+	// 	margin-right: 0%;
+	// 	padding: 30px;
+	// }
+
+	// .textCard {
+	// 	font-size: 1rem;
+	// 	padding-left: 10px;
+	// }
+
+	// td:not(:first-child) {
+	// 	white-space: nowrap;
+	// }
+
+	// .kontinenty {
+	// 	font-size: 10px;
+	// }
+}
+
+// @media screen and (max-width: 720px) {
+// 	.NacitatViacDniDoGrafov {
+// 		font-size: 14px;
+// 	}
+
+// 	.NacitatViacDniDoGrafov:hover {
+// 		font-size: 14px;
+// 	}
+
+// 	.divTable table th {
+// 		top: -1px;
+// 		font-size: 9.5px;
+// 		padding-right: 5px;
+// 	}
+
+// 	.KrajinaLink {
+// 		font-size: 9.5px;
+// 	}
+
+// 	.divTable table td {
+// 		font-size: 10.5px;
+// 		margin: 1px;
+// 		overflow: auto;
+// 	}
+
+// 	.divTable table .zrolovaneKontinenty .firstCase,
+// 	.divTable table .zrolovaneKontinenty td {
+// 		font-size: 9.5px;
+// 	}
+
+// 	.firstCase::before {
+// 		content: '';
+// 	}
+
+// 	table,
+// 	th,
+// 	td {
+// 		padding: 4px 2px 4px 2px;
+// 	}
+
+// 	table th {
+// 		padding-right: 1px;
+// 	}
+
+// 	.firstCase {
+// 		margin-top: -1px;
+// 		margin-bottom: -2px;
+// 		font-size: 9px;
+// 		line-height: 1;
+// 		white-space: pre-wrap;
+// 		color: rgb(141, 141, 141);
+// 	}
+
+// 	.sortIcon {
+// 		margin-top: 3px;
+// 		margin-left: 3px;
+// 		margin-right: 5px;
+// 		position: relative;
+// 	}
+
+// 	.firstCase {
+// 		white-space: nowrap;
+// 	}
+
+// 	.firstCaseNumber {
+// 		display: block;
+// 	}
+// }

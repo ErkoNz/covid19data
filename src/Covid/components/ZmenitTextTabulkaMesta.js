@@ -1,34 +1,23 @@
-export default function ZmenitTextTabulkaMesta(textPreZobrazenieObci, setTextPreZobrazenieObci, setShowHide, setSipkaObce) {
-    if (textPreZobrazenieObci.boolean) {
-        setTextPreZobrazenieObci({
-            boolean: !textPreZobrazenieObci.boolean,
-            text: "Schovať údaje o jedntlivých obciach"
-        })
-        setShowHide({
-            maxHeight: '600px',
-        })
-        setSipkaObce({
-            transform: "rotateX(180deg)",
-            transition: 'all .2s ease-in',
-            marginBottom: '-3px',
-            marginLeft: '3px',
-        })
-    }
-    else {
-        setTextPreZobrazenieObci({
-            boolean: !textPreZobrazenieObci.boolean,
-            text: "Zobraziť údaje o jedntlivých obciach"
-        })
-        setShowHide({
-            maxHeight: '0px',
+export default function ZmenitTextTabulkaMesta() {
+    var element = document.querySelector(".sipkaScrollMesta")
+    element.classList.toggle("rotateArrow");
 
-        })
-        setSipkaObce({
-            transform: "rotateX(0deg)",
-            transition: 'all .2s ease-in',
-            marginBottom: '-3px',
-            marginLeft: '3px',
-        })
-    }
+    var element2 = document.querySelector(".tabulkaOkrajDivMain")
+    element2.classList.toggle("changeHeight");
+
+    var element3 = document.querySelector(".textPreZObrazenieTabulky")
+    element3.classList.toggle("changeText");
+    // if (textPreZobrazenieObci.boolean) {
+    //     setTextPreZobrazenieObci({
+    //         boolean: !textPreZobrazenieObci.boolean,
+    //         text: "Schovať údaje o jednotlivých obciach"
+    //     })
+    // }
+    // else {
+    //     setTextPreZobrazenieObci({
+    //         boolean: !textPreZobrazenieObci.boolean,
+    //         text: "Zobraziť údaje o jednotlivých obciach"
+    //     })
+    // }
 }
 

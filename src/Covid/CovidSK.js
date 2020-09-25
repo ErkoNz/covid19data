@@ -5,7 +5,9 @@ import BarGrafSvk from './BarGrafSvk';
 import HandleDataSvk from './components/HandleDataSvk';
 import FuncSetDataForGraph from './components/FuncSetDataForGraph';
 // import DataWorld from './components/DataWorld';
-
+import { FiBarChart } from 'react-icons/fi'
+import { BiBarChart } from 'react-icons/bi'
+import LoadingAnimation from './components/LoadingAnimation';
 function CovidSK() {
     const [dataSvk, setDataSvk] = useState()
     const svk = 'https://mapa.covid.chat/map_data'
@@ -144,25 +146,27 @@ function CovidSK() {
 
     return (
         <div className="covidApp">
-            {dataSvk && dataForChart && mainData ?
+            {mainData ?
                 <>
-
                     <HandleDataSvk mainData={mainData} />
-                    {/* <DataWorld mainData={mainData} /> */}
 
-                    {/* <TabulkaMesta tabulkaData={dataSvk[0].districts} /> */}
-
-                    <div className="NacitatViacDniDoGrafov" onClick={() => ZmenitLoadMoreData()}>
+                    {/* <div className="NacitatViacDniDoGrafov" onClick={() => ZmenitLoadMoreData()}>
+                        {loadMoreData.bool ? <FiBarChart className="chartIcon" />
+                            : <BiBarChart className="chartIcon" />
+                        }
                         {loadMoreData.text}
-                    </div>
+                    </div> */}
 
-                    <div >
-                        <BarGrafSvk props={dataForChart} />
-                    </div>
+                    {dataForChart &&
+                        <div >
+                            {/* <BarGrafSvk props={dataForChart} ZmenitLoadMoreData={ZmenitLoadMoreData} loadMoreData={loadMoreData} /> */}
+                            <BarGrafSvk props={dataForChart} ZmenitLoadMoreData={ZmenitLoadMoreData} loadMoreData={loadMoreData} />
+                        </div>
+                    }
 
-                    <br></br><br></br><br></br><br></br>
+                    {/* <br></br><br></br><br></br><br></br> */}
                 </>
-                : ''}
+                : <LoadingAnimation />}
         </div >
     )
 }
