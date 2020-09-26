@@ -5,8 +5,8 @@ import BarGrafSvk from './BarGrafSvk';
 import HandleDataSvk from './components/HandleDataSvk';
 import FuncSetDataForGraph from './components/FuncSetDataForGraph';
 // import DataWorld from './components/DataWorld';
-import { FiBarChart } from 'react-icons/fi'
-import { BiBarChart } from 'react-icons/bi'
+// import { FiBarChart } from 'react-icons/fi'
+// import { BiBarChart } from 'react-icons/bi'
 import LoadingAnimation from './components/LoadingAnimation';
 function CovidSK() {
     const [dataSvk, setDataSvk] = useState()

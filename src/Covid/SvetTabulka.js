@@ -5,7 +5,7 @@ import PrvyRiadokTabulky from './PrvyRiadokTabulky';
 import FormatNumber from './components/FormatNumber'
 import './css/TabulkaSvet.css'
 import './css/covidMainTable.scss'
-import LoadingAnimation from './components/LoadingAnimation';
+// import LoadingAnimation from './components/LoadingAnimation';
 
 
 function SvetTabulka(props) {

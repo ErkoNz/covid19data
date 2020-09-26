@@ -31,7 +31,6 @@
 		"styled-components": "^5.2.0",
 		"uuidv4": "^6.2.3"
 	},
-	"homepage": "https://ErkoNz.github.io/covid19data/",
 	"scripts": {
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
