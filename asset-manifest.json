@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.69e03bbf.chunk.css",
-    "main.js": "/static/js/main.b9cdaf5a.chunk.js",
-    "main.js.map": "/static/js/main.b9cdaf5a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.da7c08d4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.da7c08d4.js.map",
-    "static/js/2.f7d1b484.chunk.js": "/static/js/2.f7d1b484.chunk.js",
-    "static/js/2.f7d1b484.chunk.js.map": "/static/js/2.f7d1b484.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.3fc7e3c6789fc687434832c7f488672d.js": "/precache-manifest.3fc7e3c6789fc687434832c7f488672d.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.69e03bbf.chunk.css.map": "/static/css/main.69e03bbf.chunk.css.map",
-    "static/js/2.f7d1b484.chunk.js.LICENSE.txt": "/static/js/2.f7d1b484.chunk.js.LICENSE.txt",
-    "static/media/earth.svg": "/static/media/earth.cdc4522b.svg",
-    "static/media/slovakiaIcon.svg": "/static/media/slovakiaIcon.a29682dd.svg"
+    "main.css": "/production4/static/css/main.69e03bbf.chunk.css",
+    "main.js": "/production4/static/js/main.1f757331.chunk.js",
+    "main.js.map": "/production4/static/js/main.1f757331.chunk.js.map",
+    "runtime-main.js": "/production4/static/js/runtime-main.8096dec9.js",
+    "runtime-main.js.map": "/production4/static/js/runtime-main.8096dec9.js.map",
+    "static/js/2.aeef1d47.chunk.js": "/production4/static/js/2.aeef1d47.chunk.js",
+    "static/js/2.aeef1d47.chunk.js.map": "/production4/static/js/2.aeef1d47.chunk.js.map",
+    "index.html": "/production4/index.html",
+    "precache-manifest.8c65ff1d11b3a2d0c69decd29ae6408d.js": "/production4/precache-manifest.8c65ff1d11b3a2d0c69decd29ae6408d.js",
+    "service-worker.js": "/production4/service-worker.js",
+    "static/css/main.69e03bbf.chunk.css.map": "/production4/static/css/main.69e03bbf.chunk.css.map",
+    "static/js/2.aeef1d47.chunk.js.LICENSE.txt": "/production4/static/js/2.aeef1d47.chunk.js.LICENSE.txt",
+    "static/media/earth.svg": "/production4/static/media/earth.cdc4522b.svg",
+    "static/media/slovakiaIcon.svg": "/production4/static/media/slovakiaIcon.a29682dd.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.da7c08d4.js",
-    "static/js/2.f7d1b484.chunk.js",
+    "static/js/runtime-main.8096dec9.js",
+    "static/js/2.aeef1d47.chunk.js",
     "static/css/main.69e03bbf.chunk.css",
-    "static/js/main.b9cdaf5a.chunk.js"
+    "static/js/main.1f757331.chunk.js"
   ]
 }
