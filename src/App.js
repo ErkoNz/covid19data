@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import Nav from './Nav';
 import './Covid/css/notLocated.scss'
+import ReactGA from 'react-ga';
 
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import CovidApp from './Covid/CovidApp';
@@ -18,6 +19,10 @@ import GrafyKrajina from './Covid/GrafyKrajina';
 // require('es6-promise').polyfill();
 // require('isomorphic-fetch');
 
+useEffect(() => {
+  ReactGA.initialize('UA-179112045-1');
+  ReactGA.pageview(window.location.pathname + window.location.search);
+}, [])
 
 function App() {
   return (

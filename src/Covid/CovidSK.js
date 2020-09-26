@@ -19,6 +19,7 @@ function CovidSK() {
         bool: false
     })
 
+
     useEffect(() => {
         const LoadDataBegin = async () => {
             const response = await fetch(svk)

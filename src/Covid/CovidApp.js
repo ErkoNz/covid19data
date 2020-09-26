@@ -19,7 +19,6 @@ function CovidApp() {
         }
     })
 
-
     useEffect(() => {
         const fetchData = async () => {
             const response1 = await fetch('https://disease.sh/v2/all')

@@ -4,166 +4,173 @@
 	}
 }
 
-.textPreZObrazenieTabulky {
-	padding: 10px;
+.tabulkaMestaWrapper {
+	// border: 2px solid green;
+	border: 1px solid rgb(221, 221, 221);
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
-	// background: rgba(223, 223, 223, 0.164);
-	font-size: 1.05rem;
-	// width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	// border: 1px solid rgb(221, 221, 221);
-	border-top: 1px solid rgb(226, 226, 226);
-	position: relative;
-	@include lower-then-desktop {
-		// font-size: .9rem;
-	}
-	&:hover {
-		cursor: pointer;
-	}
-
-	&::before {
-		content: "Zobraziť údaje o jednotlivých obciach";
-	}
-
-	.sipkaScrollMesta {
-		transition: .3s;
-		margin-left: 5px;
-		margin-top: 2px;
-		animation: sdb05 1.8s;
-		animation-iteration-count: 2;
-
-		@keyframes sdb05 {
-			0% {
-				// -webkit-transform: translate-Y(0);
-				transform: translateY(-4px);
-				opacity: 0;
-			}
-			50% {
-				opacity: 1;
-			}
-			100% {
-				transform: translateY(4px);
-				opacity: 0;
-			}
-		}
-	}
-
-	.rotateArrow {
-		transition: .3s;
-		transform: rotateX(180deg);
-		animation: none;
-	}
-}
-
-.tabulkaOkrajDivMain {
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	transition: .4s;
-	max-height: 0px;
-
-	.inputSearch {
-		margin-top: 25px;
+	.textPreZObrazenieTabulky {
 		padding: 10px;
-		font-size: 16px;
-		border-radius: 5px;
-		border: 1px solid rgb(202, 202, 202);
-		text-align: left;
-	}
 
-	.tabulkaMesta {
-		margin-top: 20px;
-		font-size: 16px;
-		overflow-y: scroll;
-		transition: .4s;
-		width: 100%;
+		// background: rgba(223, 223, 223, 0.164);
+		text-decoration: underline;
+		color: rgb(98, 98, 98);
+		font-weight: bold;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		// border-top: 1px solid rgb(226, 226, 226);
+		position: relative;
 		@include lower-then-desktop {
-			width: 100%;
-			font-size: 12px;
+			// font-size: .9rem;
+		}
+		&:hover {
+			cursor: pointer;
 		}
 
-		table {
+		&::before {
+			content: "Zobraziť údaje o jednotlivých obciach";
+		}
+
+		.sipkaScrollMesta {
+			transition: .3s;
+			margin-left: 5px;
+			margin-top: 2px;
+			animation: sdb05 1.8s;
+			animation-iteration-count: 2;
+
+			@keyframes sdb05 {
+				0% {
+					// -webkit-transform: translate-Y(0);
+					transform: translateY(-4px);
+					opacity: 0;
+				}
+				50% {
+					opacity: 1;
+				}
+				100% {
+					transform: translateY(4px);
+					opacity: 0;
+				}
+			}
+		}
+
+		.rotateArrow {
+			transition: .3s;
+			transform: rotateX(180deg);
+			animation: none;
+		}
+	}
+
+	.tabulkaOkrajDivMain {
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		transition: .4s;
+		max-height: 0px;
+
+		.inputSearch {
+			margin-top: 25px;
+			padding: 10px;
+			font-size: 16px;
+			border-radius: 5px;
+			border: 1px solid rgb(202, 202, 202);
+			text-align: left;
+		}
+
+		.tabulkaMesta {
+			margin-top: 20px;
+			font-size: 16px;
+			overflow-y: scroll;
+			transition: .4s;
 			width: 100%;
-			border: none;
-			min-width: 100%;
-
-			th,
-			td {
-				border: none;
-				padding: 10px;
-				border-bottom: 1px solid rgba(148, 148, 148, 0.5);
-				text-align: left;
-
-				@include lower-then-desktop {
-					padding-left: 5px;
-					padding-right: 2px;
-				}
+			@include lower-then-desktop {
+				width: 100%;
+				font-size: 12px;
 			}
 
-			td {
-				white-space: pre-wrap;
-			}
+			table {
+				width: 100%;
+				// border: none;
+				min-width: 100%;
+				border-collapse: collapse;
 
-			th:first-child {
-				.star {
-					margin-left: 0px;
-					margin-bottom: -3px;
-				}
-			}
-			th {
-				white-space: initial;
-				cursor: pointer;
-				color: rgb(88, 88, 88);
-				position: sticky;
-				top: -1px;
-				box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.4);
-				padding-right: 10px;
-				background: white;
-				.sipkaNakazeni {
-					margin-bottom: -3px;
-					margin-left: 5px;
-					color: grey;
-				}
-				.sipkaPoslednyden {
-					margin-bottom: -3px;
-					margin-left: 5px;
-					color: grey;
-				}
-				@include lower-then-desktop {
-					padding-left: 8px;
-				}
-			}
+				th,
+				td {
+					// border: none;
 
-			tr {
-				padding: 0px;
-				margin: 0px;
-				line-height: 1;
-				&:hover {
-					background: rgb(248, 248, 248);
+					padding: 10px;
+					border-bottom: 1px solid rgba(148, 148, 148, 0.5);
+					text-align: left;
+
+					@include lower-then-desktop {
+						padding-left: 5px;
+						padding-right: 2px;
+					}
 				}
-				.star {
-					color: rgb(160, 160, 160);
-					margin-left: -5px;
+
+				td {
+					white-space: pre-wrap;
+				}
+
+				th:first-child {
+					.star {
+						margin-left: 0px;
+						margin-bottom: -3px;
+					}
+				}
+				th {
+					white-space: initial;
 					cursor: pointer;
-					margin-bottom: -2px;
-					margin-right: 10px;
+					color: rgb(88, 88, 88);
+					position: sticky;
+					top: -1px;
+					box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.4);
+					padding-right: 10px;
+					background: white;
+					.sipkaNakazeni {
+						margin-bottom: -3px;
+						margin-left: 5px;
+						color: grey;
+					}
+					.sipkaPoslednyden {
+						margin-bottom: -3px;
+						margin-left: 5px;
+						color: grey;
+					}
+					@include lower-then-desktop {
+						padding-left: 8px;
+					}
+				}
+
+				tr {
+					padding: 0px;
+					margin: 0px;
+					line-height: 1;
+					&:hover {
+						background: rgb(248, 248, 248);
+					}
+					.star {
+						color: rgb(160, 160, 160);
+						margin-left: -5px;
+						cursor: pointer;
+						margin-bottom: -2px;
+						margin-right: 10px;
+					}
 				}
 			}
 		}
 	}
-}
 
-.changeHeight {
-	max-height: 600px;
-}
+	.changeHeight {
+		max-height: 600px;
+	}
 
-.changeText {
-	&::before {
-		content: "Schovať údaje o jednotlivých obciach";
+	.changeText {
+		&::before {
+			content: "Schovať údaje o jednotlivých obciach";
+		}
 	}
 }

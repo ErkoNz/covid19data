@@ -80,7 +80,8 @@ function TabulkaMesta(props) {
         localStorage.setItem(LOCAL_STORAGE_KEY_STAR, !onlyStars)
     }
     return (
-        <>
+        <div className="tabulkaMestaWrapper">
+
             <div className="textPreZObrazenieTabulky" onClick={() => ZmeniTextTabulkaMesta()}>
                 <IoIosArrowDown className="sipkaScrollMesta" />
             </div>
@@ -108,7 +109,7 @@ function TabulkaMesta(props) {
 
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
