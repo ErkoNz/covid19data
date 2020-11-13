@@ -1,0 +1,5454 @@
+[
+   {
+      "name":"Aruba",
+      "official":"Aruba",
+      "alt2":"AW",
+      "alt3":"ABW",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Afghanistan",
+      "official":"Islamic Republic of Afghanistan",
+      "alt2":"AF",
+      "alt3":"AFG",
+      "borders":[
+         "Iran",
+         "Pakistan",
+         "Turkmenistan",
+         "Uzbekistan",
+         "Tajikistan",
+         "China"
+      ],
+      "bordersAlt2":[
+         "IR",
+         "PK",
+         "TM",
+         "UZ",
+         "TJ",
+         "CN"
+      ],
+      "bordersAlt3":[
+         "IRN",
+         "PAK",
+         "TKM",
+         "UZB",
+         "TJK",
+         "CHN"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Angola",
+      "official":"Republic of Angola",
+      "alt2":"AO",
+      "alt3":"AGO",
+      "borders":[
+         "Republic of the Congo",
+         "DR Congo",
+         "Zambia",
+         "Namibia"
+      ],
+      "bordersAlt2":[
+         "CG",
+         "CD",
+         "ZM",
+         "NA"
+      ],
+      "bordersAlt3":[
+         "COG",
+         "COD",
+         "ZMB",
+         "NAM"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Anguilla",
+      "official":"Anguilla",
+      "alt2":"AI",
+      "alt3":"AIA",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Åland Islands",
+      "official":"Åland Islands",
+      "alt2":"AX",
+      "alt3":"ALA",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Albania",
+      "official":"Republic of Albania",
+      "alt2":"AL",
+      "alt3":"ALB",
+      "borders":[
+         "Montenegro",
+         "Greece",
+         "North Macedonia",
+         "Kosovo"
+      ],
+      "bordersAlt2":[
+         "ME",
+         "GR",
+         "MK",
+         "XK"
+      ],
+      "bordersAlt3":[
+         "MNE",
+         "GRC",
+         "MKD",
+         "UNK"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Andorra",
+      "official":"Principality of Andorra",
+      "alt2":"AD",
+      "alt3":"AND",
+      "borders":[
+         "France",
+         "Spain"
+      ],
+      "bordersAlt2":[
+         "FR",
+         "ES"
+      ],
+      "bordersAlt3":[
+         "FRA",
+         "ESP"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"United Arab Emirates",
+      "official":"United Arab Emirates",
+      "alt2":"AE",
+      "alt3":"ARE",
+      "borders":[
+         "Oman",
+         "Saudi Arabia"
+      ],
+      "bordersAlt2":[
+         "OM",
+         "SA"
+      ],
+      "bordersAlt3":[
+         "OMN",
+         "SAU"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Argentina",
+      "official":"Argentine Republic",
+      "alt2":"AR",
+      "alt3":"ARG",
+      "borders":[
+         "Bolivia",
+         "Brazil",
+         "Chile",
+         "Paraguay",
+         "Uruguay"
+      ],
+      "bordersAlt2":[
+         "BO",
+         "BR",
+         "CL",
+         "PY",
+         "UY"
+      ],
+      "bordersAlt3":[
+         "BOL",
+         "BRA",
+         "CHL",
+         "PRY",
+         "URY"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Armenia",
+      "official":"Republic of Armenia",
+      "alt2":"AM",
+      "alt3":"ARM",
+      "borders":[
+         "Azerbaijan",
+         "Georgia",
+         "Iran",
+         "Turkey"
+      ],
+      "bordersAlt2":[
+         "AZ",
+         "GE",
+         "IR",
+         "TR"
+      ],
+      "bordersAlt3":[
+         "AZE",
+         "GEO",
+         "IRN",
+         "TUR"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"American Samoa",
+      "official":"American Samoa",
+      "alt2":"AS",
+      "alt3":"ASM",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Antarctica",
+      "official":"Antarctica",
+      "alt2":"AQ",
+      "alt3":"ATA",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Antarctic"
+   },
+   {
+      "name":"French Southern and Antarctic Lands",
+      "official":"Territory of the French Southern and Antarctic Lands",
+      "alt2":"TF",
+      "alt3":"ATF",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Antarctic"
+   },
+   {
+      "name":"Antigua and Barbuda",
+      "official":"Antigua and Barbuda",
+      "alt2":"AG",
+      "alt3":"ATG",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Australia",
+      "official":"Commonwealth of Australia",
+      "alt2":"AU",
+      "alt3":"AUS",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Austria",
+      "official":"Republic of Austria",
+      "alt2":"AT",
+      "alt3":"AUT",
+      "borders":[
+         "Czechia",
+         "Germany",
+         "Hungary",
+         "Italy",
+         "Liechtenstein",
+         "Slovakia",
+         "Slovenia",
+         "Switzerland"
+      ],
+      "bordersAlt2":[
+         "CZ",
+         "DE",
+         "HU",
+         "IT",
+         "LI",
+         "SK",
+         "SI",
+         "CH"
+      ],
+      "bordersAlt3":[
+         "CZE",
+         "DEU",
+         "HUN",
+         "ITA",
+         "LIE",
+         "SVK",
+         "SVN",
+         "CHE"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Azerbaijan",
+      "official":"Republic of Azerbaijan",
+      "alt2":"AZ",
+      "alt3":"AZE",
+      "borders":[
+         "Armenia",
+         "Georgia",
+         "Iran",
+         "Russia",
+         "Turkey"
+      ],
+      "bordersAlt2":[
+         "AM",
+         "GE",
+         "IR",
+         "RU",
+         "TR"
+      ],
+      "bordersAlt3":[
+         "ARM",
+         "GEO",
+         "IRN",
+         "RUS",
+         "TUR"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Burundi",
+      "official":"Republic of Burundi",
+      "alt2":"BI",
+      "alt3":"BDI",
+      "borders":[
+         "DR Congo",
+         "Rwanda",
+         "Tanzania"
+      ],
+      "bordersAlt2":[
+         "CD",
+         "RW",
+         "TZ"
+      ],
+      "bordersAlt3":[
+         "COD",
+         "RWA",
+         "TZA"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Belgium",
+      "official":"Kingdom of Belgium",
+      "alt2":"BE",
+      "alt3":"BEL",
+      "borders":[
+         "France",
+         "Germany",
+         "Luxembourg",
+         "Netherlands"
+      ],
+      "bordersAlt2":[
+         "FR",
+         "DE",
+         "LU",
+         "NL"
+      ],
+      "bordersAlt3":[
+         "FRA",
+         "DEU",
+         "LUX",
+         "NLD"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Benin",
+      "official":"Republic of Benin",
+      "alt2":"BJ",
+      "alt3":"BEN",
+      "borders":[
+         "Burkina Faso",
+         "Niger",
+         "Nigeria",
+         "Togo"
+      ],
+      "bordersAlt2":[
+         "BF",
+         "NE",
+         "NG",
+         "TG"
+      ],
+      "bordersAlt3":[
+         "BFA",
+         "NER",
+         "NGA",
+         "TGO"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Burkina Faso",
+      "official":"Burkina Faso",
+      "alt2":"BF",
+      "alt3":"BFA",
+      "borders":[
+         "Benin",
+         "Ivory Coast",
+         "Ghana",
+         "Mali",
+         "Niger",
+         "Togo"
+      ],
+      "bordersAlt2":[
+         "BJ",
+         "CI",
+         "GH",
+         "ML",
+         "NE",
+         "TG"
+      ],
+      "bordersAlt3":[
+         "BEN",
+         "CIV",
+         "GHA",
+         "MLI",
+         "NER",
+         "TGO"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Bangladesh",
+      "official":"People's Republic of Bangladesh",
+      "alt2":"BD",
+      "alt3":"BGD",
+      "borders":[
+         "Myanmar",
+         "India"
+      ],
+      "bordersAlt2":[
+         "MM",
+         "IN"
+      ],
+      "bordersAlt3":[
+         "MMR",
+         "IND"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Bulgaria",
+      "official":"Republic of Bulgaria",
+      "alt2":"BG",
+      "alt3":"BGR",
+      "borders":[
+         "Greece",
+         "North Macedonia",
+         "Romania",
+         "Serbia",
+         "Turkey"
+      ],
+      "bordersAlt2":[
+         "GR",
+         "MK",
+         "RO",
+         "RS",
+         "TR"
+      ],
+      "bordersAlt3":[
+         "GRC",
+         "MKD",
+         "ROU",
+         "SRB",
+         "TUR"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Bahrain",
+      "official":"Kingdom of Bahrain",
+      "alt2":"BH",
+      "alt3":"BHR",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Bahamas",
+      "official":"Commonwealth of the Bahamas",
+      "alt2":"BS",
+      "alt3":"BHS",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Bosnia and Herzegovina",
+      "official":"Bosnia and Herzegovina",
+      "alt2":"BA",
+      "alt3":"BIH",
+      "borders":[
+         "Croatia",
+         "Montenegro",
+         "Serbia"
+      ],
+      "bordersAlt2":[
+         "HR",
+         "ME",
+         "RS"
+      ],
+      "bordersAlt3":[
+         "HRV",
+         "MNE",
+         "SRB"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Saint Barthélemy",
+      "official":"Collectivity of Saint Barthélemy",
+      "alt2":"BL",
+      "alt3":"BLM",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Saint Helena, Ascension and Tristan da Cunha",
+      "official":"Saint Helena, Ascension and Tristan da Cunha",
+      "alt2":"SH",
+      "alt3":"SHN",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Belarus",
+      "official":"Republic of Belarus",
+      "alt2":"BY",
+      "alt3":"BLR",
+      "borders":[
+         "Latvia",
+         "Lithuania",
+         "Poland",
+         "Russia",
+         "Ukraine"
+      ],
+      "bordersAlt2":[
+         "LV",
+         "LT",
+         "PL",
+         "RU",
+         "UA"
+      ],
+      "bordersAlt3":[
+         "LVA",
+         "LTU",
+         "POL",
+         "RUS",
+         "UKR"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Belize",
+      "official":"Belize",
+      "alt2":"BZ",
+      "alt3":"BLZ",
+      "borders":[
+         "Guatemala",
+         "Mexico"
+      ],
+      "bordersAlt2":[
+         "GT",
+         "MX"
+      ],
+      "bordersAlt3":[
+         "GTM",
+         "MEX"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Bermuda",
+      "official":"Bermuda",
+      "alt2":"BM",
+      "alt3":"BMU",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Bolivia",
+      "official":"Plurinational State of Bolivia",
+      "alt2":"BO",
+      "alt3":"BOL",
+      "borders":[
+         "Argentina",
+         "Brazil",
+         "Chile",
+         "Paraguay",
+         "Peru"
+      ],
+      "bordersAlt2":[
+         "AR",
+         "BR",
+         "CL",
+         "PY",
+         "PE"
+      ],
+      "bordersAlt3":[
+         "ARG",
+         "BRA",
+         "CHL",
+         "PRY",
+         "PER"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Caribbean Netherlands",
+      "official":"Bonaire, Sint Eustatius and Saba",
+      "alt2":"BQ",
+      "alt3":"BES",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Brazil",
+      "official":"Federative Republic of Brazil",
+      "alt2":"BR",
+      "alt3":"BRA",
+      "borders":[
+         "Argentina",
+         "Bolivia",
+         "Colombia",
+         "French Guiana",
+         "Guyana",
+         "Paraguay",
+         "Peru",
+         "Suriname",
+         "Uruguay",
+         "Venezuela"
+      ],
+      "bordersAlt2":[
+         "AR",
+         "BO",
+         "CO",
+         "GF",
+         "GY",
+         "PY",
+         "PE",
+         "SR",
+         "UY",
+         "VE"
+      ],
+      "bordersAlt3":[
+         "ARG",
+         "BOL",
+         "COL",
+         "GUF",
+         "GUY",
+         "PRY",
+         "PER",
+         "SUR",
+         "URY",
+         "VEN"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Barbados",
+      "official":"Barbados",
+      "alt2":"BB",
+      "alt3":"BRB",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Brunei",
+      "official":"Nation of Brunei, Abode of Peace",
+      "alt2":"BN",
+      "alt3":"BRN",
+      "borders":[
+         "Malaysia"
+      ],
+      "bordersAlt2":[
+         "MY"
+      ],
+      "bordersAlt3":[
+         "MYS"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Bhutan",
+      "official":"Kingdom of Bhutan",
+      "alt2":"BT",
+      "alt3":"BTN",
+      "borders":[
+         "China",
+         "India"
+      ],
+      "bordersAlt2":[
+         "CN",
+         "IN"
+      ],
+      "bordersAlt3":[
+         "CHN",
+         "IND"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Bouvet Island",
+      "official":"Bouvet Island",
+      "alt2":"BV",
+      "alt3":"BVT",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Antarctic"
+   },
+   {
+      "name":"Botswana",
+      "official":"Republic of Botswana",
+      "alt2":"BW",
+      "alt3":"BWA",
+      "borders":[
+         "Namibia",
+         "South Africa",
+         "Zambia",
+         "Zimbabwe"
+      ],
+      "bordersAlt2":[
+         "NA",
+         "ZA",
+         "ZM",
+         "ZW"
+      ],
+      "bordersAlt3":[
+         "NAM",
+         "ZAF",
+         "ZMB",
+         "ZWE"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Central African Republic",
+      "official":"Central African Republic",
+      "alt2":"CF",
+      "alt3":"CAF",
+      "borders":[
+         "Cameroon",
+         "Chad",
+         "DR Congo",
+         "Republic of the Congo",
+         "South Sudan",
+         "Sudan"
+      ],
+      "bordersAlt2":[
+         "CM",
+         "TD",
+         "CD",
+         "CG",
+         "SS",
+         "SD"
+      ],
+      "bordersAlt3":[
+         "CMR",
+         "TCD",
+         "COD",
+         "COG",
+         "SSD",
+         "SDN"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Canada",
+      "official":"Canada",
+      "alt2":"CA",
+      "alt3":"CAN",
+      "borders":[
+         "United States"
+      ],
+      "bordersAlt2":[
+         "US"
+      ],
+      "bordersAlt3":[
+         "USA"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Cocos (Keeling) Islands",
+      "official":"Territory of the Cocos (Keeling) Islands",
+      "alt2":"CC",
+      "alt3":"CCK",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Switzerland",
+      "official":"Swiss Confederation",
+      "alt2":"CH",
+      "alt3":"CHE",
+      "borders":[
+         "Austria",
+         "France",
+         "Italy",
+         "Liechtenstein",
+         "Germany"
+      ],
+      "bordersAlt2":[
+         "AT",
+         "FR",
+         "IT",
+         "LI",
+         "DE"
+      ],
+      "bordersAlt3":[
+         "AUT",
+         "FRA",
+         "ITA",
+         "LIE",
+         "DEU"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Chile",
+      "official":"Republic of Chile",
+      "alt2":"CL",
+      "alt3":"CHL",
+      "borders":[
+         "Argentina",
+         "Bolivia",
+         "Peru"
+      ],
+      "bordersAlt2":[
+         "AR",
+         "BO",
+         "PE"
+      ],
+      "bordersAlt3":[
+         "ARG",
+         "BOL",
+         "PER"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"China",
+      "official":"People's Republic of China",
+      "alt2":"CN",
+      "alt3":"CHN",
+      "borders":[
+         "Afghanistan",
+         "Bhutan",
+         "Myanmar",
+         "Hong Kong",
+         "India",
+         "Kazakhstan",
+         "Nepal",
+         "North Korea",
+         "Kyrgyzstan",
+         "Laos",
+         "Macau",
+         "Mongolia",
+         "Pakistan",
+         "Russia",
+         "Tajikistan",
+         "Vietnam"
+      ],
+      "bordersAlt2":[
+         "AF",
+         "BT",
+         "MM",
+         "HK",
+         "IN",
+         "KZ",
+         "NP",
+         "KP",
+         "KG",
+         "LA",
+         "MO",
+         "MN",
+         "PK",
+         "RU",
+         "TJ",
+         "VN"
+      ],
+      "bordersAlt3":[
+         "AFG",
+         "BTN",
+         "MMR",
+         "HKG",
+         "IND",
+         "KAZ",
+         "NPL",
+         "PRK",
+         "KGZ",
+         "LAO",
+         "MAC",
+         "MNG",
+         "PAK",
+         "RUS",
+         "TJK",
+         "VNM"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Ivory Coast",
+      "official":"Republic of Côte d'Ivoire",
+      "alt2":"CI",
+      "alt3":"CIV",
+      "borders":[
+         "Burkina Faso",
+         "Ghana",
+         "Guinea",
+         "Liberia",
+         "Mali"
+      ],
+      "bordersAlt2":[
+         "BF",
+         "GH",
+         "GN",
+         "LR",
+         "ML"
+      ],
+      "bordersAlt3":[
+         "BFA",
+         "GHA",
+         "GIN",
+         "LBR",
+         "MLI"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Cameroon",
+      "official":"Republic of Cameroon",
+      "alt2":"CM",
+      "alt3":"CMR",
+      "borders":[
+         "Central African Republic",
+         "Chad",
+         "Republic of the Congo",
+         "Equatorial Guinea",
+         "Gabon",
+         "Nigeria"
+      ],
+      "bordersAlt2":[
+         "CF",
+         "TD",
+         "CG",
+         "GQ",
+         "GA",
+         "NG"
+      ],
+      "bordersAlt3":[
+         "CAF",
+         "TCD",
+         "COG",
+         "GNQ",
+         "GAB",
+         "NGA"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"DR Congo",
+      "official":"Democratic Republic of the Congo",
+      "alt2":"CD",
+      "alt3":"COD",
+      "borders":[
+         "Angola",
+         "Burundi",
+         "Central African Republic",
+         "Republic of the Congo",
+         "Rwanda",
+         "South Sudan",
+         "Tanzania",
+         "Uganda",
+         "Zambia"
+      ],
+      "bordersAlt2":[
+         "AO",
+         "BI",
+         "CF",
+         "CG",
+         "RW",
+         "SS",
+         "TZ",
+         "UG",
+         "ZM"
+      ],
+      "bordersAlt3":[
+         "AGO",
+         "BDI",
+         "CAF",
+         "COG",
+         "RWA",
+         "SSD",
+         "TZA",
+         "UGA",
+         "ZMB"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Republic of the Congo",
+      "official":"Republic of the Congo",
+      "alt2":"CG",
+      "alt3":"COG",
+      "borders":[
+         "Angola",
+         "Cameroon",
+         "Central African Republic",
+         "DR Congo",
+         "Gabon"
+      ],
+      "bordersAlt2":[
+         "AO",
+         "CM",
+         "CF",
+         "CD",
+         "GA"
+      ],
+      "bordersAlt3":[
+         "AGO",
+         "CMR",
+         "CAF",
+         "COD",
+         "GAB"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Cook Islands",
+      "official":"Cook Islands",
+      "alt2":"CK",
+      "alt3":"COK",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Colombia",
+      "official":"Republic of Colombia",
+      "alt2":"CO",
+      "alt3":"COL",
+      "borders":[
+         "Brazil",
+         "Ecuador",
+         "Panama",
+         "Peru",
+         "Venezuela"
+      ],
+      "bordersAlt2":[
+         "BR",
+         "EC",
+         "PA",
+         "PE",
+         "VE"
+      ],
+      "bordersAlt3":[
+         "BRA",
+         "ECU",
+         "PAN",
+         "PER",
+         "VEN"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Comoros",
+      "official":"Union of the Comoros",
+      "alt2":"KM",
+      "alt3":"COM",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Cape Verde",
+      "official":"Republic of Cabo Verde",
+      "alt2":"CV",
+      "alt3":"CPV",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Costa Rica",
+      "official":"Republic of Costa Rica",
+      "alt2":"CR",
+      "alt3":"CRI",
+      "borders":[
+         "Nicaragua",
+         "Panama"
+      ],
+      "bordersAlt2":[
+         "NI",
+         "PA"
+      ],
+      "bordersAlt3":[
+         "NIC",
+         "PAN"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Cuba",
+      "official":"Republic of Cuba",
+      "alt2":"CU",
+      "alt3":"CUB",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Curaçao",
+      "official":"Country of Curaçao",
+      "alt2":"CW",
+      "alt3":"CUW",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Christmas Island",
+      "official":"Territory of Christmas Island",
+      "alt2":"CX",
+      "alt3":"CXR",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Cayman Islands",
+      "official":"Cayman Islands",
+      "alt2":"KY",
+      "alt3":"CYM",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Cyprus",
+      "official":"Republic of Cyprus",
+      "alt2":"CY",
+      "alt3":"CYP",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Czechia",
+      "official":"Czech Republic",
+      "alt2":"CZ",
+      "alt3":"CZE",
+      "borders":[
+         "Austria",
+         "Germany",
+         "Poland",
+         "Slovakia"
+      ],
+      "bordersAlt2":[
+         "AT",
+         "DE",
+         "PL",
+         "SK"
+      ],
+      "bordersAlt3":[
+         "AUT",
+         "DEU",
+         "POL",
+         "SVK"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Germany",
+      "official":"Federal Republic of Germany",
+      "alt2":"DE",
+      "alt3":"DEU",
+      "borders":[
+         "Austria",
+         "Belgium",
+         "Czechia",
+         "Denmark",
+         "France",
+         "Luxembourg",
+         "Netherlands",
+         "Poland",
+         "Switzerland"
+      ],
+      "bordersAlt2":[
+         "AT",
+         "BE",
+         "CZ",
+         "DK",
+         "FR",
+         "LU",
+         "NL",
+         "PL",
+         "CH"
+      ],
+      "bordersAlt3":[
+         "AUT",
+         "BEL",
+         "CZE",
+         "DNK",
+         "FRA",
+         "LUX",
+         "NLD",
+         "POL",
+         "CHE"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Djibouti",
+      "official":"Republic of Djibouti",
+      "alt2":"DJ",
+      "alt3":"DJI",
+      "borders":[
+         "Eritrea",
+         "Ethiopia",
+         "Somalia"
+      ],
+      "bordersAlt2":[
+         "ER",
+         "ET",
+         "SO"
+      ],
+      "bordersAlt3":[
+         "ERI",
+         "ETH",
+         "SOM"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Dominica",
+      "official":"Commonwealth of Dominica",
+      "alt2":"DM",
+      "alt3":"DMA",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Denmark",
+      "official":"Kingdom of Denmark",
+      "alt2":"DK",
+      "alt3":"DNK",
+      "borders":[
+         "Germany"
+      ],
+      "bordersAlt2":[
+         "DE"
+      ],
+      "bordersAlt3":[
+         "DEU"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Dominican Republic",
+      "official":"Dominican Republic",
+      "alt2":"DO",
+      "alt3":"DOM",
+      "borders":[
+         "Haiti"
+      ],
+      "bordersAlt2":[
+         "HT"
+      ],
+      "bordersAlt3":[
+         "HTI"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Algeria",
+      "official":"People's Democratic Republic of Algeria",
+      "alt2":"DZ",
+      "alt3":"DZA",
+      "borders":[
+         "Tunisia",
+         "Libya",
+         "Niger",
+         "Western Sahara",
+         "Mauritania",
+         "Mali",
+         "Morocco"
+      ],
+      "bordersAlt2":[
+         "TN",
+         "LY",
+         "NE",
+         "EH",
+         "MR",
+         "ML",
+         "MA"
+      ],
+      "bordersAlt3":[
+         "TUN",
+         "LBY",
+         "NER",
+         "ESH",
+         "MRT",
+         "MLI",
+         "MAR"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Ecuador",
+      "official":"Republic of Ecuador",
+      "alt2":"EC",
+      "alt3":"ECU",
+      "borders":[
+         "Colombia",
+         "Peru"
+      ],
+      "bordersAlt2":[
+         "CO",
+         "PE"
+      ],
+      "bordersAlt3":[
+         "COL",
+         "PER"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Egypt",
+      "official":"Arab Republic of Egypt",
+      "alt2":"EG",
+      "alt3":"EGY",
+      "borders":[
+         "Israel",
+         "Libya",
+         "Palestine",
+         "Sudan"
+      ],
+      "bordersAlt2":[
+         "IL",
+         "LY",
+         "PS",
+         "SD"
+      ],
+      "bordersAlt3":[
+         "ISR",
+         "LBY",
+         "PSE",
+         "SDN"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Eritrea",
+      "official":"State of Eritrea",
+      "alt2":"ER",
+      "alt3":"ERI",
+      "borders":[
+         "Djibouti",
+         "Ethiopia",
+         "Sudan"
+      ],
+      "bordersAlt2":[
+         "DJ",
+         "ET",
+         "SD"
+      ],
+      "bordersAlt3":[
+         "DJI",
+         "ETH",
+         "SDN"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Western Sahara",
+      "official":"Sahrawi Arab Democratic Republic",
+      "alt2":"EH",
+      "alt3":"ESH",
+      "borders":[
+         "Algeria",
+         "Mauritania",
+         "Morocco"
+      ],
+      "bordersAlt2":[
+         "DZ",
+         "MR",
+         "MA"
+      ],
+      "bordersAlt3":[
+         "DZA",
+         "MRT",
+         "MAR"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Spain",
+      "official":"Kingdom of Spain",
+      "alt2":"ES",
+      "alt3":"ESP",
+      "borders":[
+         "Andorra",
+         "France",
+         "Gibraltar",
+         "Portugal",
+         "Morocco"
+      ],
+      "bordersAlt2":[
+         "AD",
+         "FR",
+         "GI",
+         "PT",
+         "MA"
+      ],
+      "bordersAlt3":[
+         "AND",
+         "FRA",
+         "GIB",
+         "PRT",
+         "MAR"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Estonia",
+      "official":"Republic of Estonia",
+      "alt2":"EE",
+      "alt3":"EST",
+      "borders":[
+         "Latvia",
+         "Russia"
+      ],
+      "bordersAlt2":[
+         "LV",
+         "RU"
+      ],
+      "bordersAlt3":[
+         "LVA",
+         "RUS"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Ethiopia",
+      "official":"Federal Democratic Republic of Ethiopia",
+      "alt2":"ET",
+      "alt3":"ETH",
+      "borders":[
+         "Djibouti",
+         "Eritrea",
+         "Kenya",
+         "Somalia",
+         "South Sudan",
+         "Sudan"
+      ],
+      "bordersAlt2":[
+         "DJ",
+         "ER",
+         "KE",
+         "SO",
+         "SS",
+         "SD"
+      ],
+      "bordersAlt3":[
+         "DJI",
+         "ERI",
+         "KEN",
+         "SOM",
+         "SSD",
+         "SDN"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Finland",
+      "official":"Republic of Finland",
+      "alt2":"FI",
+      "alt3":"FIN",
+      "borders":[
+         "Norway",
+         "Sweden",
+         "Russia"
+      ],
+      "bordersAlt2":[
+         "NO",
+         "SE",
+         "RU"
+      ],
+      "bordersAlt3":[
+         "NOR",
+         "SWE",
+         "RUS"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Fiji",
+      "official":"Republic of Fiji",
+      "alt2":"FJ",
+      "alt3":"FJI",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Falkland Islands",
+      "official":"Falkland Islands",
+      "alt2":"FK",
+      "alt3":"FLK",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"France",
+      "official":"French Republic",
+      "alt2":"FR",
+      "alt3":"FRA",
+      "borders":[
+         "Andorra",
+         "Belgium",
+         "Germany",
+         "Italy",
+         "Luxembourg",
+         "Monaco",
+         "Spain",
+         "Switzerland"
+      ],
+      "bordersAlt2":[
+         "AD",
+         "BE",
+         "DE",
+         "IT",
+         "LU",
+         "MC",
+         "ES",
+         "CH"
+      ],
+      "bordersAlt3":[
+         "AND",
+         "BEL",
+         "DEU",
+         "ITA",
+         "LUX",
+         "MCO",
+         "ESP",
+         "CHE"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Faroe Islands",
+      "official":"Faroe Islands",
+      "alt2":"FO",
+      "alt3":"FRO",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Micronesia",
+      "official":"Federated States of Micronesia",
+      "alt2":"FM",
+      "alt3":"FSM",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Gabon",
+      "official":"Gabonese Republic",
+      "alt2":"GA",
+      "alt3":"GAB",
+      "borders":[
+         "Cameroon",
+         "Republic of the Congo",
+         "Equatorial Guinea"
+      ],
+      "bordersAlt2":[
+         "CM",
+         "CG",
+         "GQ"
+      ],
+      "bordersAlt3":[
+         "CMR",
+         "COG",
+         "GNQ"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"United Kingdom",
+      "official":"United Kingdom of Great Britain and Northern Ireland",
+      "alt2":"GB",
+      "alt3":"GBR",
+      "borders":[
+         "Ireland"
+      ],
+      "bordersAlt2":[
+         "IE"
+      ],
+      "bordersAlt3":[
+         "IRL"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Georgia",
+      "official":"Georgia",
+      "alt2":"GE",
+      "alt3":"GEO",
+      "borders":[
+         "Armenia",
+         "Azerbaijan",
+         "Russia",
+         "Turkey"
+      ],
+      "bordersAlt2":[
+         "AM",
+         "AZ",
+         "RU",
+         "TR"
+      ],
+      "bordersAlt3":[
+         "ARM",
+         "AZE",
+         "RUS",
+         "TUR"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Guernsey",
+      "official":"Bailiwick of Guernsey",
+      "alt2":"GG",
+      "alt3":"GGY",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Ghana",
+      "official":"Republic of Ghana",
+      "alt2":"GH",
+      "alt3":"GHA",
+      "borders":[
+         "Burkina Faso",
+         "Ivory Coast",
+         "Togo"
+      ],
+      "bordersAlt2":[
+         "BF",
+         "CI",
+         "TG"
+      ],
+      "bordersAlt3":[
+         "BFA",
+         "CIV",
+         "TGO"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Gibraltar",
+      "official":"Gibraltar",
+      "alt2":"GI",
+      "alt3":"GIB",
+      "borders":[
+         "Spain"
+      ],
+      "bordersAlt2":[
+         "ES"
+      ],
+      "bordersAlt3":[
+         "ESP"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Guinea",
+      "official":"Republic of Guinea",
+      "alt2":"GN",
+      "alt3":"GIN",
+      "borders":[
+         "Ivory Coast",
+         "Guinea-Bissau",
+         "Liberia",
+         "Mali",
+         "Senegal",
+         "Sierra Leone"
+      ],
+      "bordersAlt2":[
+         "CI",
+         "GW",
+         "LR",
+         "ML",
+         "SN",
+         "SL"
+      ],
+      "bordersAlt3":[
+         "CIV",
+         "GNB",
+         "LBR",
+         "MLI",
+         "SEN",
+         "SLE"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Guadeloupe",
+      "official":"Guadeloupe",
+      "alt2":"GP",
+      "alt3":"GLP",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Gambia",
+      "official":"Republic of the Gambia",
+      "alt2":"GM",
+      "alt3":"GMB",
+      "borders":[
+         "Senegal"
+      ],
+      "bordersAlt2":[
+         "SN"
+      ],
+      "bordersAlt3":[
+         "SEN"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Guinea-Bissau",
+      "official":"Republic of Guinea-Bissau",
+      "alt2":"GW",
+      "alt3":"GNB",
+      "borders":[
+         "Guinea",
+         "Senegal"
+      ],
+      "bordersAlt2":[
+         "GN",
+         "SN"
+      ],
+      "bordersAlt3":[
+         "GIN",
+         "SEN"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Equatorial Guinea",
+      "official":"Republic of Equatorial Guinea",
+      "alt2":"GQ",
+      "alt3":"GNQ",
+      "borders":[
+         "Cameroon",
+         "Gabon"
+      ],
+      "bordersAlt2":[
+         "CM",
+         "GA"
+      ],
+      "bordersAlt3":[
+         "CMR",
+         "GAB"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Greece",
+      "official":"Hellenic Republic",
+      "alt2":"GR",
+      "alt3":"GRC",
+      "borders":[
+         "Albania",
+         "Bulgaria",
+         "Turkey",
+         "North Macedonia"
+      ],
+      "bordersAlt2":[
+         "AL",
+         "BG",
+         "TR",
+         "MK"
+      ],
+      "bordersAlt3":[
+         "ALB",
+         "BGR",
+         "TUR",
+         "MKD"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Grenada",
+      "official":"Grenada",
+      "alt2":"GD",
+      "alt3":"GRD",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Greenland",
+      "official":"Greenland",
+      "alt2":"GL",
+      "alt3":"GRL",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Guatemala",
+      "official":"Republic of Guatemala",
+      "alt2":"GT",
+      "alt3":"GTM",
+      "borders":[
+         "Belize",
+         "El Salvador",
+         "Honduras",
+         "Mexico"
+      ],
+      "bordersAlt2":[
+         "BZ",
+         "SV",
+         "HN",
+         "MX"
+      ],
+      "bordersAlt3":[
+         "BLZ",
+         "SLV",
+         "HND",
+         "MEX"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"French Guiana",
+      "official":"Guiana",
+      "alt2":"GF",
+      "alt3":"GUF",
+      "borders":[
+         "Brazil",
+         "Suriname"
+      ],
+      "bordersAlt2":[
+         "BR",
+         "SR"
+      ],
+      "bordersAlt3":[
+         "BRA",
+         "SUR"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Guam",
+      "official":"Guam",
+      "alt2":"GU",
+      "alt3":"GUM",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Guyana",
+      "official":"Co-operative Republic of Guyana",
+      "alt2":"GY",
+      "alt3":"GUY",
+      "borders":[
+         "Brazil",
+         "Suriname",
+         "Venezuela"
+      ],
+      "bordersAlt2":[
+         "BR",
+         "SR",
+         "VE"
+      ],
+      "bordersAlt3":[
+         "BRA",
+         "SUR",
+         "VEN"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Hong Kong",
+      "official":"Hong Kong Special Administrative Region of the People's Republic of China",
+      "alt2":"HK",
+      "alt3":"HKG",
+      "borders":[
+         "China"
+      ],
+      "bordersAlt2":[
+         "CN"
+      ],
+      "bordersAlt3":[
+         "CHN"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Heard Island and McDonald Islands",
+      "official":"Heard Island and McDonald Islands",
+      "alt2":"HM",
+      "alt3":"HMD",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Antarctic"
+   },
+   {
+      "name":"Honduras",
+      "official":"Republic of Honduras",
+      "alt2":"HN",
+      "alt3":"HND",
+      "borders":[
+         "Guatemala",
+         "El Salvador",
+         "Nicaragua"
+      ],
+      "bordersAlt2":[
+         "GT",
+         "SV",
+         "NI"
+      ],
+      "bordersAlt3":[
+         "GTM",
+         "SLV",
+         "NIC"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Croatia",
+      "official":"Republic of Croatia",
+      "alt2":"HR",
+      "alt3":"HRV",
+      "borders":[
+         "Bosnia and Herzegovina",
+         "Hungary",
+         "Montenegro",
+         "Serbia",
+         "Slovenia"
+      ],
+      "bordersAlt2":[
+         "BA",
+         "HU",
+         "ME",
+         "RS",
+         "SI"
+      ],
+      "bordersAlt3":[
+         "BIH",
+         "HUN",
+         "MNE",
+         "SRB",
+         "SVN"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Haiti",
+      "official":"Republic of Haiti",
+      "alt2":"HT",
+      "alt3":"HTI",
+      "borders":[
+         "Dominican Republic"
+      ],
+      "bordersAlt2":[
+         "DO"
+      ],
+      "bordersAlt3":[
+         "DOM"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Hungary",
+      "official":"Hungary",
+      "alt2":"HU",
+      "alt3":"HUN",
+      "borders":[
+         "Austria",
+         "Croatia",
+         "Romania",
+         "Serbia",
+         "Slovakia",
+         "Slovenia",
+         "Ukraine"
+      ],
+      "bordersAlt2":[
+         "AT",
+         "HR",
+         "RO",
+         "RS",
+         "SK",
+         "SI",
+         "UA"
+      ],
+      "bordersAlt3":[
+         "AUT",
+         "HRV",
+         "ROU",
+         "SRB",
+         "SVK",
+         "SVN",
+         "UKR"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Indonesia",
+      "official":"Republic of Indonesia",
+      "alt2":"ID",
+      "alt3":"IDN",
+      "borders":[
+         "Timor-Leste",
+         "Malaysia",
+         "Papua New Guinea"
+      ],
+      "bordersAlt2":[
+         "TL",
+         "MY",
+         "PG"
+      ],
+      "bordersAlt3":[
+         "TLS",
+         "MYS",
+         "PNG"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Isle of Man",
+      "official":"Isle of Man",
+      "alt2":"IM",
+      "alt3":"IMN",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"India",
+      "official":"Republic of India",
+      "alt2":"IN",
+      "alt3":"IND",
+      "borders":[
+         "Bangladesh",
+         "Bhutan",
+         "Myanmar",
+         "China",
+         "Nepal",
+         "Pakistan"
+      ],
+      "bordersAlt2":[
+         "BD",
+         "BT",
+         "MM",
+         "CN",
+         "NP",
+         "PK"
+      ],
+      "bordersAlt3":[
+         "BGD",
+         "BTN",
+         "MMR",
+         "CHN",
+         "NPL",
+         "PAK"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"British Indian Ocean Territory",
+      "official":"British Indian Ocean Territory",
+      "alt2":"IO",
+      "alt3":"IOT",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Ireland",
+      "official":"Republic of Ireland",
+      "alt2":"IE",
+      "alt3":"IRL",
+      "borders":[
+         "United Kingdom"
+      ],
+      "bordersAlt2":[
+         "GB"
+      ],
+      "bordersAlt3":[
+         "GBR"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Iran",
+      "official":"Islamic Republic of Iran",
+      "alt2":"IR",
+      "alt3":"IRN",
+      "borders":[
+         "Afghanistan",
+         "Armenia",
+         "Azerbaijan",
+         "Iraq",
+         "Pakistan",
+         "Turkey",
+         "Turkmenistan"
+      ],
+      "bordersAlt2":[
+         "AF",
+         "AM",
+         "AZ",
+         "IQ",
+         "PK",
+         "TR",
+         "TM"
+      ],
+      "bordersAlt3":[
+         "AFG",
+         "ARM",
+         "AZE",
+         "IRQ",
+         "PAK",
+         "TUR",
+         "TKM"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Iraq",
+      "official":"Republic of Iraq",
+      "alt2":"IQ",
+      "alt3":"IRQ",
+      "borders":[
+         "Iran",
+         "Jordan",
+         "Kuwait",
+         "Saudi Arabia",
+         "Syria",
+         "Turkey"
+      ],
+      "bordersAlt2":[
+         "IR",
+         "JO",
+         "KW",
+         "SA",
+         "SY",
+         "TR"
+      ],
+      "bordersAlt3":[
+         "IRN",
+         "JOR",
+         "KWT",
+         "SAU",
+         "SYR",
+         "TUR"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Iceland",
+      "official":"Iceland",
+      "alt2":"IS",
+      "alt3":"ISL",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Israel",
+      "official":"State of Israel",
+      "alt2":"IL",
+      "alt3":"ISR",
+      "borders":[
+         "Egypt",
+         "Jordan",
+         "Lebanon",
+         "Palestine",
+         "Syria"
+      ],
+      "bordersAlt2":[
+         "EG",
+         "JO",
+         "LB",
+         "PS",
+         "SY"
+      ],
+      "bordersAlt3":[
+         "EGY",
+         "JOR",
+         "LBN",
+         "PSE",
+         "SYR"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Italy",
+      "official":"Italian Republic",
+      "alt2":"IT",
+      "alt3":"ITA",
+      "borders":[
+         "Austria",
+         "France",
+         "San Marino",
+         "Slovenia",
+         "Switzerland",
+         "Vatican City"
+      ],
+      "bordersAlt2":[
+         "AT",
+         "FR",
+         "SM",
+         "SI",
+         "CH",
+         "VA"
+      ],
+      "bordersAlt3":[
+         "AUT",
+         "FRA",
+         "SMR",
+         "SVN",
+         "CHE",
+         "VAT"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Jamaica",
+      "official":"Jamaica",
+      "alt2":"JM",
+      "alt3":"JAM",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Jersey",
+      "official":"Bailiwick of Jersey",
+      "alt2":"JE",
+      "alt3":"JEY",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Jordan",
+      "official":"Hashemite Kingdom of Jordan",
+      "alt2":"JO",
+      "alt3":"JOR",
+      "borders":[
+         "Iraq",
+         "Israel",
+         "Palestine",
+         "Saudi Arabia",
+         "Syria"
+      ],
+      "bordersAlt2":[
+         "IQ",
+         "IL",
+         "PS",
+         "SA",
+         "SY"
+      ],
+      "bordersAlt3":[
+         "IRQ",
+         "ISR",
+         "PSE",
+         "SAU",
+         "SYR"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Japan",
+      "official":"Japan",
+      "alt2":"JP",
+      "alt3":"JPN",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Kazakhstan",
+      "official":"Republic of Kazakhstan",
+      "alt2":"KZ",
+      "alt3":"KAZ",
+      "borders":[
+         "China",
+         "Kyrgyzstan",
+         "Russia",
+         "Turkmenistan",
+         "Uzbekistan"
+      ],
+      "bordersAlt2":[
+         "CN",
+         "KG",
+         "RU",
+         "TM",
+         "UZ"
+      ],
+      "bordersAlt3":[
+         "CHN",
+         "KGZ",
+         "RUS",
+         "TKM",
+         "UZB"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Kenya",
+      "official":"Republic of Kenya",
+      "alt2":"KE",
+      "alt3":"KEN",
+      "borders":[
+         "Ethiopia",
+         "Somalia",
+         "South Sudan",
+         "Tanzania",
+         "Uganda"
+      ],
+      "bordersAlt2":[
+         "ET",
+         "SO",
+         "SS",
+         "TZ",
+         "UG"
+      ],
+      "bordersAlt3":[
+         "ETH",
+         "SOM",
+         "SSD",
+         "TZA",
+         "UGA"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Kyrgyzstan",
+      "official":"Kyrgyz Republic",
+      "alt2":"KG",
+      "alt3":"KGZ",
+      "borders":[
+         "China",
+         "Kazakhstan",
+         "Tajikistan",
+         "Uzbekistan"
+      ],
+      "bordersAlt2":[
+         "CN",
+         "KZ",
+         "TJ",
+         "UZ"
+      ],
+      "bordersAlt3":[
+         "CHN",
+         "KAZ",
+         "TJK",
+         "UZB"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Cambodia",
+      "official":"Kingdom of Cambodia",
+      "alt2":"KH",
+      "alt3":"KHM",
+      "borders":[
+         "Laos",
+         "Thailand",
+         "Vietnam"
+      ],
+      "bordersAlt2":[
+         "LA",
+         "TH",
+         "VN"
+      ],
+      "bordersAlt3":[
+         "LAO",
+         "THA",
+         "VNM"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Kiribati",
+      "official":"Independent and Sovereign Republic of Kiribati",
+      "alt2":"KI",
+      "alt3":"KIR",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Saint Kitts and Nevis",
+      "official":"Federation of Saint Christopher and Nevis",
+      "alt2":"KN",
+      "alt3":"KNA",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"South Korea",
+      "official":"Republic of Korea",
+      "alt2":"KR",
+      "alt3":"KOR",
+      "borders":[
+         "North Korea"
+      ],
+      "bordersAlt2":[
+         "KP"
+      ],
+      "bordersAlt3":[
+         "PRK"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Kosovo",
+      "official":"Republic of Kosovo",
+      "alt2":"XK",
+      "alt3":"UNK",
+      "borders":[
+         "Albania",
+         "North Macedonia",
+         "Montenegro",
+         "Serbia"
+      ],
+      "bordersAlt2":[
+         "AL",
+         "MK",
+         "ME",
+         "RS"
+      ],
+      "bordersAlt3":[
+         "ALB",
+         "MKD",
+         "MNE",
+         "SRB"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Kuwait",
+      "official":"State of Kuwait",
+      "alt2":"KW",
+      "alt3":"KWT",
+      "borders":[
+         "Iraq",
+         "Saudi Arabia"
+      ],
+      "bordersAlt2":[
+         "IQ",
+         "SA"
+      ],
+      "bordersAlt3":[
+         "IRQ",
+         "SAU"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Laos",
+      "official":"Lao People's Democratic Republic",
+      "alt2":"LA",
+      "alt3":"LAO",
+      "borders":[
+         "Myanmar",
+         "Cambodia",
+         "China",
+         "Thailand",
+         "Vietnam"
+      ],
+      "bordersAlt2":[
+         "MM",
+         "KH",
+         "CN",
+         "TH",
+         "VN"
+      ],
+      "bordersAlt3":[
+         "MMR",
+         "KHM",
+         "CHN",
+         "THA",
+         "VNM"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Lebanon",
+      "official":"Lebanese Republic",
+      "alt2":"LB",
+      "alt3":"LBN",
+      "borders":[
+         "Israel",
+         "Syria"
+      ],
+      "bordersAlt2":[
+         "IL",
+         "SY"
+      ],
+      "bordersAlt3":[
+         "ISR",
+         "SYR"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Liberia",
+      "official":"Republic of Liberia",
+      "alt2":"LR",
+      "alt3":"LBR",
+      "borders":[
+         "Guinea",
+         "Ivory Coast",
+         "Sierra Leone"
+      ],
+      "bordersAlt2":[
+         "GN",
+         "CI",
+         "SL"
+      ],
+      "bordersAlt3":[
+         "GIN",
+         "CIV",
+         "SLE"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Libya",
+      "official":"State of Libya",
+      "alt2":"LY",
+      "alt3":"LBY",
+      "borders":[
+         "Algeria",
+         "Chad",
+         "Egypt",
+         "Niger",
+         "Sudan",
+         "Tunisia"
+      ],
+      "bordersAlt2":[
+         "DZ",
+         "TD",
+         "EG",
+         "NE",
+         "SD",
+         "TN"
+      ],
+      "bordersAlt3":[
+         "DZA",
+         "TCD",
+         "EGY",
+         "NER",
+         "SDN",
+         "TUN"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Saint Lucia",
+      "official":"Saint Lucia",
+      "alt2":"LC",
+      "alt3":"LCA",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Liechtenstein",
+      "official":"Principality of Liechtenstein",
+      "alt2":"LI",
+      "alt3":"LIE",
+      "borders":[
+         "Austria",
+         "Switzerland"
+      ],
+      "bordersAlt2":[
+         "AT",
+         "CH"
+      ],
+      "bordersAlt3":[
+         "AUT",
+         "CHE"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Sri Lanka",
+      "official":"Democratic Socialist Republic of Sri Lanka",
+      "alt2":"LK",
+      "alt3":"LKA",
+      "borders":[
+         "India"
+      ],
+      "bordersAlt2":[
+         "IN"
+      ],
+      "bordersAlt3":[
+         "IND"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Lesotho",
+      "official":"Kingdom of Lesotho",
+      "alt2":"LS",
+      "alt3":"LSO",
+      "borders":[
+         "South Africa"
+      ],
+      "bordersAlt2":[
+         "ZA"
+      ],
+      "bordersAlt3":[
+         "ZAF"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Lithuania",
+      "official":"Republic of Lithuania",
+      "alt2":"LT",
+      "alt3":"LTU",
+      "borders":[
+         "Belarus",
+         "Latvia",
+         "Poland",
+         "Russia"
+      ],
+      "bordersAlt2":[
+         "BY",
+         "LV",
+         "PL",
+         "RU"
+      ],
+      "bordersAlt3":[
+         "BLR",
+         "LVA",
+         "POL",
+         "RUS"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Luxembourg",
+      "official":"Grand Duchy of Luxembourg",
+      "alt2":"LU",
+      "alt3":"LUX",
+      "borders":[
+         "Belgium",
+         "France",
+         "Germany"
+      ],
+      "bordersAlt2":[
+         "BE",
+         "FR",
+         "DE"
+      ],
+      "bordersAlt3":[
+         "BEL",
+         "FRA",
+         "DEU"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Latvia",
+      "official":"Republic of Latvia",
+      "alt2":"LV",
+      "alt3":"LVA",
+      "borders":[
+         "Belarus",
+         "Estonia",
+         "Lithuania",
+         "Russia"
+      ],
+      "bordersAlt2":[
+         "BY",
+         "EE",
+         "LT",
+         "RU"
+      ],
+      "bordersAlt3":[
+         "BLR",
+         "EST",
+         "LTU",
+         "RUS"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Macau",
+      "official":"Macao Special Administrative Region of the People's Republic of China",
+      "alt2":"MO",
+      "alt3":"MAC",
+      "borders":[
+         "China"
+      ],
+      "bordersAlt2":[
+         "CN"
+      ],
+      "bordersAlt3":[
+         "CHN"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Saint Martin",
+      "official":"Saint Martin",
+      "alt2":"MF",
+      "alt3":"MAF",
+      "borders":[
+         "Sint Maarten"
+      ],
+      "bordersAlt2":[
+         "SX"
+      ],
+      "bordersAlt3":[
+         "SXM"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Morocco",
+      "official":"Kingdom of Morocco",
+      "alt2":"MA",
+      "alt3":"MAR",
+      "borders":[
+         "Algeria",
+         "Western Sahara",
+         "Spain"
+      ],
+      "bordersAlt2":[
+         "DZ",
+         "EH",
+         "ES"
+      ],
+      "bordersAlt3":[
+         "DZA",
+         "ESH",
+         "ESP"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Monaco",
+      "official":"Principality of Monaco",
+      "alt2":"MC",
+      "alt3":"MCO",
+      "borders":[
+         "France"
+      ],
+      "bordersAlt2":[
+         "FR"
+      ],
+      "bordersAlt3":[
+         "FRA"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Moldova",
+      "official":"Republic of Moldova",
+      "alt2":"MD",
+      "alt3":"MDA",
+      "borders":[
+         "Romania",
+         "Ukraine"
+      ],
+      "bordersAlt2":[
+         "RO",
+         "UA"
+      ],
+      "bordersAlt3":[
+         "ROU",
+         "UKR"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Madagascar",
+      "official":"Republic of Madagascar",
+      "alt2":"MG",
+      "alt3":"MDG",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Maldives",
+      "official":"Republic of the Maldives",
+      "alt2":"MV",
+      "alt3":"MDV",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Mexico",
+      "official":"United Mexican States",
+      "alt2":"MX",
+      "alt3":"MEX",
+      "borders":[
+         "Belize",
+         "Guatemala",
+         "United States"
+      ],
+      "bordersAlt2":[
+         "BZ",
+         "GT",
+         "US"
+      ],
+      "bordersAlt3":[
+         "BLZ",
+         "GTM",
+         "USA"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Marshall Islands",
+      "official":"Republic of the Marshall Islands",
+      "alt2":"MH",
+      "alt3":"MHL",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"North Macedonia",
+      "official":"Republic of North Macedonia",
+      "alt2":"MK",
+      "alt3":"MKD",
+      "borders":[
+         "Albania",
+         "Bulgaria",
+         "Greece",
+         "Kosovo",
+         "Serbia"
+      ],
+      "bordersAlt2":[
+         "AL",
+         "BG",
+         "GR",
+         "XK",
+         "RS"
+      ],
+      "bordersAlt3":[
+         "ALB",
+         "BGR",
+         "GRC",
+         "UNK",
+         "SRB"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Mali",
+      "official":"Republic of Mali",
+      "alt2":"ML",
+      "alt3":"MLI",
+      "borders":[
+         "Algeria",
+         "Burkina Faso",
+         "Guinea",
+         "Ivory Coast",
+         "Mauritania",
+         "Niger",
+         "Senegal"
+      ],
+      "bordersAlt2":[
+         "DZ",
+         "BF",
+         "GN",
+         "CI",
+         "MR",
+         "NE",
+         "SN"
+      ],
+      "bordersAlt3":[
+         "DZA",
+         "BFA",
+         "GIN",
+         "CIV",
+         "MRT",
+         "NER",
+         "SEN"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Malta",
+      "official":"Republic of Malta",
+      "alt2":"MT",
+      "alt3":"MLT",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Myanmar",
+      "official":"Republic of the Union of Myanmar",
+      "alt2":"MM",
+      "alt3":"MMR",
+      "borders":[
+         "Bangladesh",
+         "China",
+         "India",
+         "Laos",
+         "Thailand"
+      ],
+      "bordersAlt2":[
+         "BD",
+         "CN",
+         "IN",
+         "LA",
+         "TH"
+      ],
+      "bordersAlt3":[
+         "BGD",
+         "CHN",
+         "IND",
+         "LAO",
+         "THA"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Montenegro",
+      "official":"Montenegro",
+      "alt2":"ME",
+      "alt3":"MNE",
+      "borders":[
+         "Albania",
+         "Bosnia and Herzegovina",
+         "Croatia",
+         "Kosovo",
+         "Serbia"
+      ],
+      "bordersAlt2":[
+         "AL",
+         "BA",
+         "HR",
+         "XK",
+         "RS"
+      ],
+      "bordersAlt3":[
+         "ALB",
+         "BIH",
+         "HRV",
+         "UNK",
+         "SRB"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Mongolia",
+      "official":"Mongolia",
+      "alt2":"MN",
+      "alt3":"MNG",
+      "borders":[
+         "China",
+         "Russia"
+      ],
+      "bordersAlt2":[
+         "CN",
+         "RU"
+      ],
+      "bordersAlt3":[
+         "CHN",
+         "RUS"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Northern Mariana Islands",
+      "official":"Commonwealth of the Northern Mariana Islands",
+      "alt2":"MP",
+      "alt3":"MNP",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Mozambique",
+      "official":"Republic of Mozambique",
+      "alt2":"MZ",
+      "alt3":"MOZ",
+      "borders":[
+         "Malawi",
+         "South Africa",
+         "Eswatini",
+         "Tanzania",
+         "Zambia",
+         "Zimbabwe"
+      ],
+      "bordersAlt2":[
+         "MW",
+         "ZA",
+         "SZ",
+         "TZ",
+         "ZM",
+         "ZW"
+      ],
+      "bordersAlt3":[
+         "MWI",
+         "ZAF",
+         "SWZ",
+         "TZA",
+         "ZMB",
+         "ZWE"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Mauritania",
+      "official":"Islamic Republic of Mauritania",
+      "alt2":"MR",
+      "alt3":"MRT",
+      "borders":[
+         "Algeria",
+         "Mali",
+         "Senegal",
+         "Western Sahara"
+      ],
+      "bordersAlt2":[
+         "DZ",
+         "ML",
+         "SN",
+         "EH"
+      ],
+      "bordersAlt3":[
+         "DZA",
+         "MLI",
+         "SEN",
+         "ESH"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Montserrat",
+      "official":"Montserrat",
+      "alt2":"MS",
+      "alt3":"MSR",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Martinique",
+      "official":"Martinique",
+      "alt2":"MQ",
+      "alt3":"MTQ",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Mauritius",
+      "official":"Republic of Mauritius",
+      "alt2":"MU",
+      "alt3":"MUS",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Malawi",
+      "official":"Republic of Malawi",
+      "alt2":"MW",
+      "alt3":"MWI",
+      "borders":[
+         "Mozambique",
+         "Tanzania",
+         "Zambia"
+      ],
+      "bordersAlt2":[
+         "MZ",
+         "TZ",
+         "ZM"
+      ],
+      "bordersAlt3":[
+         "MOZ",
+         "TZA",
+         "ZMB"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Malaysia",
+      "official":"Malaysia",
+      "alt2":"MY",
+      "alt3":"MYS",
+      "borders":[
+         "Brunei",
+         "Indonesia",
+         "Thailand"
+      ],
+      "bordersAlt2":[
+         "BN",
+         "ID",
+         "TH"
+      ],
+      "bordersAlt3":[
+         "BRN",
+         "IDN",
+         "THA"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Mayotte",
+      "official":"Department of Mayotte",
+      "alt2":"YT",
+      "alt3":"MYT",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Namibia",
+      "official":"Republic of Namibia",
+      "alt2":"NA",
+      "alt3":"NAM",
+      "borders":[
+         "Angola",
+         "Botswana",
+         "South Africa",
+         "Zambia"
+      ],
+      "bordersAlt2":[
+         "AO",
+         "BW",
+         "ZA",
+         "ZM"
+      ],
+      "bordersAlt3":[
+         "AGO",
+         "BWA",
+         "ZAF",
+         "ZMB"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"New Caledonia",
+      "official":"New Caledonia",
+      "alt2":"NC",
+      "alt3":"NCL",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Niger",
+      "official":"Republic of Niger",
+      "alt2":"NE",
+      "alt3":"NER",
+      "borders":[
+         "Algeria",
+         "Benin",
+         "Burkina Faso",
+         "Chad",
+         "Libya",
+         "Mali",
+         "Nigeria"
+      ],
+      "bordersAlt2":[
+         "DZ",
+         "BJ",
+         "BF",
+         "TD",
+         "LY",
+         "ML",
+         "NG"
+      ],
+      "bordersAlt3":[
+         "DZA",
+         "BEN",
+         "BFA",
+         "TCD",
+         "LBY",
+         "MLI",
+         "NGA"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Norfolk Island",
+      "official":"Territory of Norfolk Island",
+      "alt2":"NF",
+      "alt3":"NFK",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Nigeria",
+      "official":"Federal Republic of Nigeria",
+      "alt2":"NG",
+      "alt3":"NGA",
+      "borders":[
+         "Benin",
+         "Cameroon",
+         "Chad",
+         "Niger"
+      ],
+      "bordersAlt2":[
+         "BJ",
+         "CM",
+         "TD",
+         "NE"
+      ],
+      "bordersAlt3":[
+         "BEN",
+         "CMR",
+         "TCD",
+         "NER"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Nicaragua",
+      "official":"Republic of Nicaragua",
+      "alt2":"NI",
+      "alt3":"NIC",
+      "borders":[
+         "Costa Rica",
+         "Honduras"
+      ],
+      "bordersAlt2":[
+         "CR",
+         "HN"
+      ],
+      "bordersAlt3":[
+         "CRI",
+         "HND"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Niue",
+      "official":"Niue",
+      "alt2":"NU",
+      "alt3":"NIU",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Netherlands",
+      "official":"Kingdom of the Netherlands",
+      "alt2":"NL",
+      "alt3":"NLD",
+      "borders":[
+         "Belgium",
+         "Germany"
+      ],
+      "bordersAlt2":[
+         "BE",
+         "DE"
+      ],
+      "bordersAlt3":[
+         "BEL",
+         "DEU"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Norway",
+      "official":"Kingdom of Norway",
+      "alt2":"NO",
+      "alt3":"NOR",
+      "borders":[
+         "Finland",
+         "Sweden",
+         "Russia"
+      ],
+      "bordersAlt2":[
+         "FI",
+         "SE",
+         "RU"
+      ],
+      "bordersAlt3":[
+         "FIN",
+         "SWE",
+         "RUS"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Nepal",
+      "official":"Federal Democratic Republic of Nepal",
+      "alt2":"NP",
+      "alt3":"NPL",
+      "borders":[
+         "China",
+         "India"
+      ],
+      "bordersAlt2":[
+         "CN",
+         "IN"
+      ],
+      "bordersAlt3":[
+         "CHN",
+         "IND"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Nauru",
+      "official":"Republic of Nauru",
+      "alt2":"NR",
+      "alt3":"NRU",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"New Zealand",
+      "official":"New Zealand",
+      "alt2":"NZ",
+      "alt3":"NZL",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Oman",
+      "official":"Sultanate of Oman",
+      "alt2":"OM",
+      "alt3":"OMN",
+      "borders":[
+         "Saudi Arabia",
+         "United Arab Emirates",
+         "Yemen"
+      ],
+      "bordersAlt2":[
+         "SA",
+         "AE",
+         "YE"
+      ],
+      "bordersAlt3":[
+         "SAU",
+         "ARE",
+         "YEM"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Pakistan",
+      "official":"Islamic Republic of Pakistan",
+      "alt2":"PK",
+      "alt3":"PAK",
+      "borders":[
+         "Afghanistan",
+         "China",
+         "India",
+         "Iran"
+      ],
+      "bordersAlt2":[
+         "AF",
+         "CN",
+         "IN",
+         "IR"
+      ],
+      "bordersAlt3":[
+         "AFG",
+         "CHN",
+         "IND",
+         "IRN"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Panama",
+      "official":"Republic of Panama",
+      "alt2":"PA",
+      "alt3":"PAN",
+      "borders":[
+         "Colombia",
+         "Costa Rica"
+      ],
+      "bordersAlt2":[
+         "CO",
+         "CR"
+      ],
+      "bordersAlt3":[
+         "COL",
+         "CRI"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Pitcairn Islands",
+      "official":"Pitcairn Group of Islands",
+      "alt2":"PN",
+      "alt3":"PCN",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Peru",
+      "official":"Republic of Peru",
+      "alt2":"PE",
+      "alt3":"PER",
+      "borders":[
+         "Bolivia",
+         "Brazil",
+         "Chile",
+         "Colombia",
+         "Ecuador"
+      ],
+      "bordersAlt2":[
+         "BO",
+         "BR",
+         "CL",
+         "CO",
+         "EC"
+      ],
+      "bordersAlt3":[
+         "BOL",
+         "BRA",
+         "CHL",
+         "COL",
+         "ECU"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Philippines",
+      "official":"Republic of the Philippines",
+      "alt2":"PH",
+      "alt3":"PHL",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Palau",
+      "official":"Republic of Palau",
+      "alt2":"PW",
+      "alt3":"PLW",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Papua New Guinea",
+      "official":"Independent State of Papua New Guinea",
+      "alt2":"PG",
+      "alt3":"PNG",
+      "borders":[
+         "Indonesia"
+      ],
+      "bordersAlt2":[
+         "ID"
+      ],
+      "bordersAlt3":[
+         "IDN"
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Poland",
+      "official":"Republic of Poland",
+      "alt2":"PL",
+      "alt3":"POL",
+      "borders":[
+         "Belarus",
+         "Czechia",
+         "Germany",
+         "Lithuania",
+         "Russia",
+         "Slovakia",
+         "Ukraine"
+      ],
+      "bordersAlt2":[
+         "BY",
+         "CZ",
+         "DE",
+         "LT",
+         "RU",
+         "SK",
+         "UA"
+      ],
+      "bordersAlt3":[
+         "BLR",
+         "CZE",
+         "DEU",
+         "LTU",
+         "RUS",
+         "SVK",
+         "UKR"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Puerto Rico",
+      "official":"Commonwealth of Puerto Rico",
+      "alt2":"PR",
+      "alt3":"PRI",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"North Korea",
+      "official":"Democratic People's Republic of Korea",
+      "alt2":"KP",
+      "alt3":"PRK",
+      "borders":[
+         "China",
+         "South Korea",
+         "Russia"
+      ],
+      "bordersAlt2":[
+         "CN",
+         "KR",
+         "RU"
+      ],
+      "bordersAlt3":[
+         "CHN",
+         "KOR",
+         "RUS"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Portugal",
+      "official":"Portuguese Republic",
+      "alt2":"PT",
+      "alt3":"PRT",
+      "borders":[
+         "Spain"
+      ],
+      "bordersAlt2":[
+         "ES"
+      ],
+      "bordersAlt3":[
+         "ESP"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Paraguay",
+      "official":"Republic of Paraguay",
+      "alt2":"PY",
+      "alt3":"PRY",
+      "borders":[
+         "Argentina",
+         "Bolivia",
+         "Brazil"
+      ],
+      "bordersAlt2":[
+         "AR",
+         "BO",
+         "BR"
+      ],
+      "bordersAlt3":[
+         "ARG",
+         "BOL",
+         "BRA"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Palestine",
+      "official":"State of Palestine",
+      "alt2":"PS",
+      "alt3":"PSE",
+      "borders":[
+         "Israel",
+         "Egypt",
+         "Jordan"
+      ],
+      "bordersAlt2":[
+         "IL",
+         "EG",
+         "JO"
+      ],
+      "bordersAlt3":[
+         "ISR",
+         "EGY",
+         "JOR"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"French Polynesia",
+      "official":"French Polynesia",
+      "alt2":"PF",
+      "alt3":"PYF",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Qatar",
+      "official":"State of Qatar",
+      "alt2":"QA",
+      "alt3":"QAT",
+      "borders":[
+         "Saudi Arabia"
+      ],
+      "bordersAlt2":[
+         "SA"
+      ],
+      "bordersAlt3":[
+         "SAU"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Réunion",
+      "official":"Réunion Island",
+      "alt2":"RE",
+      "alt3":"REU",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Romania",
+      "official":"Romania",
+      "alt2":"RO",
+      "alt3":"ROU",
+      "borders":[
+         "Bulgaria",
+         "Hungary",
+         "Moldova",
+         "Serbia",
+         "Ukraine"
+      ],
+      "bordersAlt2":[
+         "BG",
+         "HU",
+         "MD",
+         "RS",
+         "UA"
+      ],
+      "bordersAlt3":[
+         "BGR",
+         "HUN",
+         "MDA",
+         "SRB",
+         "UKR"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Russia",
+      "official":"Russian Federation",
+      "alt2":"RU",
+      "alt3":"RUS",
+      "borders":[
+         "Azerbaijan",
+         "Belarus",
+         "China",
+         "Estonia",
+         "Finland",
+         "Georgia",
+         "Kazakhstan",
+         "North Korea",
+         "Latvia",
+         "Lithuania",
+         "Mongolia",
+         "Norway",
+         "Poland",
+         "Ukraine"
+      ],
+      "bordersAlt2":[
+         "AZ",
+         "BY",
+         "CN",
+         "EE",
+         "FI",
+         "GE",
+         "KZ",
+         "KP",
+         "LV",
+         "LT",
+         "MN",
+         "NO",
+         "PL",
+         "UA"
+      ],
+      "bordersAlt3":[
+         "AZE",
+         "BLR",
+         "CHN",
+         "EST",
+         "FIN",
+         "GEO",
+         "KAZ",
+         "PRK",
+         "LVA",
+         "LTU",
+         "MNG",
+         "NOR",
+         "POL",
+         "UKR"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Rwanda",
+      "official":"Republic of Rwanda",
+      "alt2":"RW",
+      "alt3":"RWA",
+      "borders":[
+         "Burundi",
+         "DR Congo",
+         "Tanzania",
+         "Uganda"
+      ],
+      "bordersAlt2":[
+         "BI",
+         "CD",
+         "TZ",
+         "UG"
+      ],
+      "bordersAlt3":[
+         "BDI",
+         "COD",
+         "TZA",
+         "UGA"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Saudi Arabia",
+      "official":"Kingdom of Saudi Arabia",
+      "alt2":"SA",
+      "alt3":"SAU",
+      "borders":[
+         "Iraq",
+         "Jordan",
+         "Kuwait",
+         "Oman",
+         "Qatar",
+         "United Arab Emirates",
+         "Yemen"
+      ],
+      "bordersAlt2":[
+         "IQ",
+         "JO",
+         "KW",
+         "OM",
+         "QA",
+         "AE",
+         "YE"
+      ],
+      "bordersAlt3":[
+         "IRQ",
+         "JOR",
+         "KWT",
+         "OMN",
+         "QAT",
+         "ARE",
+         "YEM"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Sudan",
+      "official":"Republic of the Sudan",
+      "alt2":"SD",
+      "alt3":"SDN",
+      "borders":[
+         "Central African Republic",
+         "Chad",
+         "Egypt",
+         "Eritrea",
+         "Ethiopia",
+         "Libya",
+         "South Sudan"
+      ],
+      "bordersAlt2":[
+         "CF",
+         "TD",
+         "EG",
+         "ER",
+         "ET",
+         "LY",
+         "SS"
+      ],
+      "bordersAlt3":[
+         "CAF",
+         "TCD",
+         "EGY",
+         "ERI",
+         "ETH",
+         "LBY",
+         "SSD"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Senegal",
+      "official":"Republic of Senegal",
+      "alt2":"SN",
+      "alt3":"SEN",
+      "borders":[
+         "Gambia",
+         "Guinea",
+         "Guinea-Bissau",
+         "Mali",
+         "Mauritania"
+      ],
+      "bordersAlt2":[
+         "GM",
+         "GN",
+         "GW",
+         "ML",
+         "MR"
+      ],
+      "bordersAlt3":[
+         "GMB",
+         "GIN",
+         "GNB",
+         "MLI",
+         "MRT"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Singapore",
+      "official":"Republic of Singapore",
+      "alt2":"SG",
+      "alt3":"SGP",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"South Georgia",
+      "official":"South Georgia and the South Sandwich Islands",
+      "alt2":"GS",
+      "alt3":"SGS",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Antarctic"
+   },
+   {
+      "name":"Svalbard and Jan Mayen",
+      "official":"Svalbard og Jan Mayen",
+      "alt2":"SJ",
+      "alt3":"SJM",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Solomon Islands",
+      "official":"Solomon Islands",
+      "alt2":"SB",
+      "alt3":"SLB",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Sierra Leone",
+      "official":"Republic of Sierra Leone",
+      "alt2":"SL",
+      "alt3":"SLE",
+      "borders":[
+         "Guinea",
+         "Liberia"
+      ],
+      "bordersAlt2":[
+         "GN",
+         "LR"
+      ],
+      "bordersAlt3":[
+         "GIN",
+         "LBR"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"El Salvador",
+      "official":"Republic of El Salvador",
+      "alt2":"SV",
+      "alt3":"SLV",
+      "borders":[
+         "Guatemala",
+         "Honduras"
+      ],
+      "bordersAlt2":[
+         "GT",
+         "HN"
+      ],
+      "bordersAlt3":[
+         "GTM",
+         "HND"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"San Marino",
+      "official":"Most Serene Republic of San Marino",
+      "alt2":"SM",
+      "alt3":"SMR",
+      "borders":[
+         "Italy"
+      ],
+      "bordersAlt2":[
+         "IT"
+      ],
+      "bordersAlt3":[
+         "ITA"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Somalia",
+      "official":"Federal Republic of Somalia",
+      "alt2":"SO",
+      "alt3":"SOM",
+      "borders":[
+         "Djibouti",
+         "Ethiopia",
+         "Kenya"
+      ],
+      "bordersAlt2":[
+         "DJ",
+         "ET",
+         "KE"
+      ],
+      "bordersAlt3":[
+         "DJI",
+         "ETH",
+         "KEN"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Saint Pierre and Miquelon",
+      "official":"Saint Pierre and Miquelon",
+      "alt2":"PM",
+      "alt3":"SPM",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Serbia",
+      "official":"Republic of Serbia",
+      "alt2":"RS",
+      "alt3":"SRB",
+      "borders":[
+         "Bosnia and Herzegovina",
+         "Bulgaria",
+         "Croatia",
+         "Hungary",
+         "Kosovo",
+         "North Macedonia",
+         "Montenegro",
+         "Romania"
+      ],
+      "bordersAlt2":[
+         "BA",
+         "BG",
+         "HR",
+         "HU",
+         "XK",
+         "MK",
+         "ME",
+         "RO"
+      ],
+      "bordersAlt3":[
+         "BIH",
+         "BGR",
+         "HRV",
+         "HUN",
+         "UNK",
+         "MKD",
+         "MNE",
+         "ROU"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"South Sudan",
+      "official":"Republic of South Sudan",
+      "alt2":"SS",
+      "alt3":"SSD",
+      "borders":[
+         "Central African Republic",
+         "DR Congo",
+         "Ethiopia",
+         "Kenya",
+         "Sudan",
+         "Uganda"
+      ],
+      "bordersAlt2":[
+         "CF",
+         "CD",
+         "ET",
+         "KE",
+         "SD",
+         "UG"
+      ],
+      "bordersAlt3":[
+         "CAF",
+         "COD",
+         "ETH",
+         "KEN",
+         "SDN",
+         "UGA"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"São Tomé and Príncipe",
+      "official":"Democratic Republic of São Tomé and Príncipe",
+      "alt2":"ST",
+      "alt3":"STP",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Suriname",
+      "official":"Republic of Suriname",
+      "alt2":"SR",
+      "alt3":"SUR",
+      "borders":[
+         "Brazil",
+         "French Guiana",
+         "Guyana"
+      ],
+      "bordersAlt2":[
+         "BR",
+         "GF",
+         "GY"
+      ],
+      "bordersAlt3":[
+         "BRA",
+         "GUF",
+         "GUY"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Slovakia",
+      "official":"Slovak Republic",
+      "alt2":"SK",
+      "alt3":"SVK",
+      "borders":[
+         "Austria",
+         "Czechia",
+         "Hungary",
+         "Poland",
+         "Ukraine"
+      ],
+      "bordersAlt2":[
+         "AT",
+         "CZ",
+         "HU",
+         "PL",
+         "UA"
+      ],
+      "bordersAlt3":[
+         "AUT",
+         "CZE",
+         "HUN",
+         "POL",
+         "UKR"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Slovenia",
+      "official":"Republic of Slovenia",
+      "alt2":"SI",
+      "alt3":"SVN",
+      "borders":[
+         "Austria",
+         "Croatia",
+         "Italy",
+         "Hungary"
+      ],
+      "bordersAlt2":[
+         "AT",
+         "HR",
+         "IT",
+         "HU"
+      ],
+      "bordersAlt3":[
+         "AUT",
+         "HRV",
+         "ITA",
+         "HUN"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Sweden",
+      "official":"Kingdom of Sweden",
+      "alt2":"SE",
+      "alt3":"SWE",
+      "borders":[
+         "Finland",
+         "Norway"
+      ],
+      "bordersAlt2":[
+         "FI",
+         "NO"
+      ],
+      "bordersAlt3":[
+         "FIN",
+         "NOR"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Eswatini",
+      "official":"Kingdom of Eswatini",
+      "alt2":"SZ",
+      "alt3":"SWZ",
+      "borders":[
+         "Mozambique",
+         "South Africa"
+      ],
+      "bordersAlt2":[
+         "MZ",
+         "ZA"
+      ],
+      "bordersAlt3":[
+         "MOZ",
+         "ZAF"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Sint Maarten",
+      "official":"Sint Maarten",
+      "alt2":"SX",
+      "alt3":"SXM",
+      "borders":[
+         "Saint Martin"
+      ],
+      "bordersAlt2":[
+         "MF"
+      ],
+      "bordersAlt3":[
+         "MAF"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Seychelles",
+      "official":"Republic of Seychelles",
+      "alt2":"SC",
+      "alt3":"SYC",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Syria",
+      "official":"Syrian Arab Republic",
+      "alt2":"SY",
+      "alt3":"SYR",
+      "borders":[
+         "Iraq",
+         "Israel",
+         "Jordan",
+         "Lebanon",
+         "Turkey"
+      ],
+      "bordersAlt2":[
+         "IQ",
+         "IL",
+         "JO",
+         "LB",
+         "TR"
+      ],
+      "bordersAlt3":[
+         "IRQ",
+         "ISR",
+         "JOR",
+         "LBN",
+         "TUR"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Turks and Caicos Islands",
+      "official":"Turks and Caicos Islands",
+      "alt2":"TC",
+      "alt3":"TCA",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Chad",
+      "official":"Republic of Chad",
+      "alt2":"TD",
+      "alt3":"TCD",
+      "borders":[
+         "Cameroon",
+         "Central African Republic",
+         "Libya",
+         "Niger",
+         "Nigeria",
+         "Sudan"
+      ],
+      "bordersAlt2":[
+         "CM",
+         "CF",
+         "LY",
+         "NE",
+         "NG",
+         "SD"
+      ],
+      "bordersAlt3":[
+         "CMR",
+         "CAF",
+         "LBY",
+         "NER",
+         "NGA",
+         "SDN"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Togo",
+      "official":"Togolese Republic",
+      "alt2":"TG",
+      "alt3":"TGO",
+      "borders":[
+         "Benin",
+         "Burkina Faso",
+         "Ghana"
+      ],
+      "bordersAlt2":[
+         "BJ",
+         "BF",
+         "GH"
+      ],
+      "bordersAlt3":[
+         "BEN",
+         "BFA",
+         "GHA"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Thailand",
+      "official":"Kingdom of Thailand",
+      "alt2":"TH",
+      "alt3":"THA",
+      "borders":[
+         "Myanmar",
+         "Cambodia",
+         "Laos",
+         "Malaysia"
+      ],
+      "bordersAlt2":[
+         "MM",
+         "KH",
+         "LA",
+         "MY"
+      ],
+      "bordersAlt3":[
+         "MMR",
+         "KHM",
+         "LAO",
+         "MYS"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Tajikistan",
+      "official":"Republic of Tajikistan",
+      "alt2":"TJ",
+      "alt3":"TJK",
+      "borders":[
+         "Afghanistan",
+         "China",
+         "Kyrgyzstan",
+         "Uzbekistan"
+      ],
+      "bordersAlt2":[
+         "AF",
+         "CN",
+         "KG",
+         "UZ"
+      ],
+      "bordersAlt3":[
+         "AFG",
+         "CHN",
+         "KGZ",
+         "UZB"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Tokelau",
+      "official":"Tokelau",
+      "alt2":"TK",
+      "alt3":"TKL",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Turkmenistan",
+      "official":"Turkmenistan",
+      "alt2":"TM",
+      "alt3":"TKM",
+      "borders":[
+         "Afghanistan",
+         "Iran",
+         "Kazakhstan",
+         "Uzbekistan"
+      ],
+      "bordersAlt2":[
+         "AF",
+         "IR",
+         "KZ",
+         "UZ"
+      ],
+      "bordersAlt3":[
+         "AFG",
+         "IRN",
+         "KAZ",
+         "UZB"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Timor-Leste",
+      "official":"Democratic Republic of Timor-Leste",
+      "alt2":"TL",
+      "alt3":"TLS",
+      "borders":[
+         "Indonesia"
+      ],
+      "bordersAlt2":[
+         "ID"
+      ],
+      "bordersAlt3":[
+         "IDN"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Tonga",
+      "official":"Kingdom of Tonga",
+      "alt2":"TO",
+      "alt3":"TON",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Trinidad and Tobago",
+      "official":"Republic of Trinidad and Tobago",
+      "alt2":"TT",
+      "alt3":"TTO",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Tunisia",
+      "official":"Tunisian Republic",
+      "alt2":"TN",
+      "alt3":"TUN",
+      "borders":[
+         "Algeria",
+         "Libya"
+      ],
+      "bordersAlt2":[
+         "DZ",
+         "LY"
+      ],
+      "bordersAlt3":[
+         "DZA",
+         "LBY"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Turkey",
+      "official":"Republic of Turkey",
+      "alt2":"TR",
+      "alt3":"TUR",
+      "borders":[
+         "Armenia",
+         "Azerbaijan",
+         "Bulgaria",
+         "Georgia",
+         "Greece",
+         "Iran",
+         "Iraq",
+         "Syria"
+      ],
+      "bordersAlt2":[
+         "AM",
+         "AZ",
+         "BG",
+         "GE",
+         "GR",
+         "IR",
+         "IQ",
+         "SY"
+      ],
+      "bordersAlt3":[
+         "ARM",
+         "AZE",
+         "BGR",
+         "GEO",
+         "GRC",
+         "IRN",
+         "IRQ",
+         "SYR"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Tuvalu",
+      "official":"Tuvalu",
+      "alt2":"TV",
+      "alt3":"TUV",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Taiwan",
+      "official":"Republic of China (Taiwan)",
+      "alt2":"TW",
+      "alt3":"TWN",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Tanzania",
+      "official":"United Republic of Tanzania",
+      "alt2":"TZ",
+      "alt3":"TZA",
+      "borders":[
+         "Burundi",
+         "DR Congo",
+         "Kenya",
+         "Malawi",
+         "Mozambique",
+         "Rwanda",
+         "Uganda",
+         "Zambia"
+      ],
+      "bordersAlt2":[
+         "BI",
+         "CD",
+         "KE",
+         "MW",
+         "MZ",
+         "RW",
+         "UG",
+         "ZM"
+      ],
+      "bordersAlt3":[
+         "BDI",
+         "COD",
+         "KEN",
+         "MWI",
+         "MOZ",
+         "RWA",
+         "UGA",
+         "ZMB"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Uganda",
+      "official":"Republic of Uganda",
+      "alt2":"UG",
+      "alt3":"UGA",
+      "borders":[
+         "DR Congo",
+         "Kenya",
+         "Rwanda",
+         "South Sudan",
+         "Tanzania"
+      ],
+      "bordersAlt2":[
+         "CD",
+         "KE",
+         "RW",
+         "SS",
+         "TZ"
+      ],
+      "bordersAlt3":[
+         "COD",
+         "KEN",
+         "RWA",
+         "SSD",
+         "TZA"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Ukraine",
+      "official":"Ukraine",
+      "alt2":"UA",
+      "alt3":"UKR",
+      "borders":[
+         "Belarus",
+         "Hungary",
+         "Moldova",
+         "Poland",
+         "Romania",
+         "Russia",
+         "Slovakia"
+      ],
+      "bordersAlt2":[
+         "BY",
+         "HU",
+         "MD",
+         "PL",
+         "RO",
+         "RU",
+         "SK"
+      ],
+      "bordersAlt3":[
+         "BLR",
+         "HUN",
+         "MDA",
+         "POL",
+         "ROU",
+         "RUS",
+         "SVK"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"United States Minor Outlying Islands",
+      "official":"United States Minor Outlying Islands",
+      "alt2":"UM",
+      "alt3":"UMI",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Uruguay",
+      "official":"Oriental Republic of Uruguay",
+      "alt2":"UY",
+      "alt3":"URY",
+      "borders":[
+         "Argentina",
+         "Brazil"
+      ],
+      "bordersAlt2":[
+         "AR",
+         "BR"
+      ],
+      "bordersAlt3":[
+         "ARG",
+         "BRA"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"United States",
+      "official":"United States of America",
+      "alt2":"US",
+      "alt3":"USA",
+      "borders":[
+         "Canada",
+         "Mexico"
+      ],
+      "bordersAlt2":[
+         "CA",
+         "MX"
+      ],
+      "bordersAlt3":[
+         "CAN",
+         "MEX"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Uzbekistan",
+      "official":"Republic of Uzbekistan",
+      "alt2":"UZ",
+      "alt3":"UZB",
+      "borders":[
+         "Afghanistan",
+         "Kazakhstan",
+         "Kyrgyzstan",
+         "Tajikistan",
+         "Turkmenistan"
+      ],
+      "bordersAlt2":[
+         "AF",
+         "KZ",
+         "KG",
+         "TJ",
+         "TM"
+      ],
+      "bordersAlt3":[
+         "AFG",
+         "KAZ",
+         "KGZ",
+         "TJK",
+         "TKM"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Vatican City",
+      "official":"Vatican City State",
+      "alt2":"VA",
+      "alt3":"VAT",
+      "borders":[
+         "Italy"
+      ],
+      "bordersAlt2":[
+         "IT"
+      ],
+      "bordersAlt3":[
+         "ITA"
+      ],
+      "continent":"Europe"
+   },
+   {
+      "name":"Saint Vincent and the Grenadines",
+      "official":"Saint Vincent and the Grenadines",
+      "alt2":"VC",
+      "alt3":"VCT",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Venezuela",
+      "official":"Bolivarian Republic of Venezuela",
+      "alt2":"VE",
+      "alt3":"VEN",
+      "borders":[
+         "Brazil",
+         "Colombia",
+         "Guyana"
+      ],
+      "bordersAlt2":[
+         "BR",
+         "CO",
+         "GY"
+      ],
+      "bordersAlt3":[
+         "BRA",
+         "COL",
+         "GUY"
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"British Virgin Islands",
+      "official":"Virgin Islands",
+      "alt2":"VG",
+      "alt3":"VGB",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"United States Virgin Islands",
+      "official":"Virgin Islands of the United States",
+      "alt2":"VI",
+      "alt3":"VIR",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Americas"
+   },
+   {
+      "name":"Vietnam",
+      "official":"Socialist Republic of Vietnam",
+      "alt2":"VN",
+      "alt3":"VNM",
+      "borders":[
+         "Cambodia",
+         "China",
+         "Laos"
+      ],
+      "bordersAlt2":[
+         "KH",
+         "CN",
+         "LA"
+      ],
+      "bordersAlt3":[
+         "KHM",
+         "CHN",
+         "LAO"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"Vanuatu",
+      "official":"Republic of Vanuatu",
+      "alt2":"VU",
+      "alt3":"VUT",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Wallis and Futuna",
+      "official":"Territory of the Wallis and Futuna Islands",
+      "alt2":"WF",
+      "alt3":"WLF",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Samoa",
+      "official":"Independent State of Samoa",
+      "alt2":"WS",
+      "alt3":"WSM",
+      "borders":[
+         
+      ],
+      "bordersAlt2":[
+         
+      ],
+      "bordersAlt3":[
+         
+      ],
+      "continent":"Oceania"
+   },
+   {
+      "name":"Yemen",
+      "official":"Republic of Yemen",
+      "alt2":"YE",
+      "alt3":"YEM",
+      "borders":[
+         "Oman",
+         "Saudi Arabia"
+      ],
+      "bordersAlt2":[
+         "OM",
+         "SA"
+      ],
+      "bordersAlt3":[
+         "OMN",
+         "SAU"
+      ],
+      "continent":"Asia"
+   },
+   {
+      "name":"South Africa",
+      "official":"Republic of South Africa",
+      "alt2":"ZA",
+      "alt3":"ZAF",
+      "borders":[
+         "Botswana",
+         "Lesotho",
+         "Mozambique",
+         "Namibia",
+         "Eswatini",
+         "Zimbabwe"
+      ],
+      "bordersAlt2":[
+         "BW",
+         "LS",
+         "MZ",
+         "NA",
+         "SZ",
+         "ZW"
+      ],
+      "bordersAlt3":[
+         "BWA",
+         "LSO",
+         "MOZ",
+         "NAM",
+         "SWZ",
+         "ZWE"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Zambia",
+      "official":"Republic of Zambia",
+      "alt2":"ZM",
+      "alt3":"ZMB",
+      "borders":[
+         "Angola",
+         "Botswana",
+         "DR Congo",
+         "Malawi",
+         "Mozambique",
+         "Namibia",
+         "Tanzania",
+         "Zimbabwe"
+      ],
+      "bordersAlt2":[
+         "AO",
+         "BW",
+         "CD",
+         "MW",
+         "MZ",
+         "NA",
+         "TZ",
+         "ZW"
+      ],
+      "bordersAlt3":[
+         "AGO",
+         "BWA",
+         "COD",
+         "MWI",
+         "MOZ",
+         "NAM",
+         "TZA",
+         "ZWE"
+      ],
+      "continent":"Africa"
+   },
+   {
+      "name":"Zimbabwe",
+      "official":"Republic of Zimbabwe",
+      "alt2":"ZW",
+      "alt3":"ZWE",
+      "borders":[
+         "Botswana",
+         "Mozambique",
+         "South Africa",
+         "Zambia"
+      ],
+      "bordersAlt2":[
+         "BW",
+         "MZ",
+         "ZA",
+         "ZM"
+      ],
+      "bordersAlt3":[
+         "BWA",
+         "MOZ",
+         "ZAF",
+         "ZMB"
+      ],
+      "continent":"Africa"
+   }
+]
